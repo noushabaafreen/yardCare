@@ -1,0 +1,4822 @@
+[
+  {
+    "materialCode": "10ECEES0007",
+    "materialName": "END COVER AIR COMPRESSOR  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGMO0040",
+    "materialName": "CUMMINS 4BT HEAD VALVE LOCK",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10MECMO2869",
+    "materialName": "264129108701 ROTARY SPRING/ TORSION SPRI",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGVL0027",
+    "materialName": "HEAD VALVE STD 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0559",
+    "materialName": "HEAD VALVE SEAT T/ACE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0135",
+    "materialName": "HEAD TIKKI",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGVL0024",
+    "materialName": "HEAD VALVE LOCK TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0061",
+    "materialName": "UPPER GASKET KIT 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0057",
+    "materialName": "CUMMINS 4BT LOWER GASKET KIT WITH OILSE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGRI0030",
+    "materialName": "ID201610 PISTON RING SET STD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2521",
+    "materialName": "278605999979 PUSH ROD TATA TIPPER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0031",
+    "materialName": "278607996948, TATA FUEL SUPPLY TUBE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTHF0033",
+    "materialName": "HYDROLIC FILTER P165659",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPI0032",
+    "materialName": "4988944 CENTER PIN  HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECWH0041",
+    "materialName": "5003315 WASHER HM LODDER 2021 D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECBR0079",
+    "materialName": "4988954 BEARING HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO0859",
+    "materialName": "4988945 HOUSING HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO0860",
+    "materialName": "4988946 HOUSING HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECSL0065",
+    "materialName": "4988947 SEAL HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECSL0066",
+    "materialName": "4988948 SEAL HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECBU0021",
+    "materialName": "4988950 BUSHING HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECBU0022",
+    "materialName": "4988951 BUSHING HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10CNBGL0012",
+    "materialName": "53110180 ,  WINDSCREEN  MANITOU",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0426",
+    "materialName": "S3585 A2 AIR FILTER  T/ACE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0330",
+    "materialName": "SAFETY GLASS 5 MM THICKNESS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBR0269",
+    "materialName": "1062 2Z BALL BEARING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0098",
+    "materialName": "P5103869 BR LNG KIT WOR-410X200STD-14HOL",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRMO0130",
+    "materialName": "F8TG2022 REAR BRAKE DRUM Tipper Ashok Le",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO2757",
+    "materialName": "FFG02214 TAIL PIPE Tipper Ashok Leyland",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECOS0098",
+    "materialName": "FA601700 HUB OIL SEAL REAR INNER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ENGES0205",
+    "materialName": "X2705100 HINO EURO 3 MAIN OIL SEAL",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0157",
+    "materialName": "FZ601500 FRONT AXLE BRAKE ACTUATOR L/L 2",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECBR0149",
+    "materialName": "FVB00700, A/L 2518 CLUTCH RELEASE BEARIN",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0444",
+    "materialName": "FLYWHEEL ASSY  B3F12201",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10TGBMO0048",
+    "materialName": "B1M04302, A/L CAPTAIN 2518 CLUTCH PLATE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10TGBTG0139",
+    "materialName": "B1M04301 AXIAL CPRING CLUTCH 380 D",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FLTFF0083",
+    "materialName": "PRE FUEL FILTER BS4 FHJ01000 ASHOK LEYLA",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECBL0001",
+    "materialName": "X0302050 A/L AC COMP BELT 8PK1552",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECEAS0063",
+    "materialName": "26247161 LEVER ASSY LUCAS",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ECESW0247",
+    "materialName": "26260345 SOLENOID SWITCH B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TGBTG0119",
+    "materialName": "RELEASE BEARING 395 B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10UCISP0008",
+    "materialName": "TE21525, ZX220 CARRIER ROLLER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0014",
+    "materialName": "YA00020553, ZX220 H LINK BUSH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0013",
+    "materialName": "YA00020179TC, ZX220 BUSH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0018",
+    "materialName": "3088577, ZX220 PIN",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0020",
+    "materialName": "3088580, ZX220 PIN",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0012",
+    "materialName": "YA00020178TC, ZX220 CONNECTING BUSH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0080",
+    "materialName": "3088573 ZX-220 PIN BOOM",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECAY0084",
+    "materialName": "KEOR1000, TATA HITACHI O RING KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0041",
+    "materialName": "UPPER GASKET ( HALF GASKET ) CUMMINS 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0227",
+    "materialName": "TE31674 TURBO HOSE FLEXIBLE TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0612",
+    "materialName": "A9262000201 WATER PUMP BHARAT BENZ BHARA",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRVL0004",
+    "materialName": "4728937, VALVE-INVERSION HM2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10SBRVL0005",
+    "materialName": "4728971, VALVE AS CHECK HM2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10SBRVL0003",
+    "materialName": "4728930, VALVE CHECK HM2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO2899",
+    "materialName": "927000001100H GRAD HAND CONTROL VALVE M3",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10SBRSB0148",
+    "materialName": "P4321951/P5103876 BREAKE SHOE RIVIT L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECBU0077",
+    "materialName": "WE00004 BUSHING TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0051",
+    "materialName": "WE00599 BUCKET BUSH 60*75*50",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0055",
+    "materialName": "WD00661, TL340H BUCKET PIN(UPPER)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0054",
+    "materialName": "WD00003, TL340H BUCKET PIN(LOWER)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0071",
+    "materialName": "FAN TD32554 HITACHI TL340H OLD TC02626",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2172",
+    "materialName": "TE09422 SHAFT SEAL RING TL340H",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYISL0295",
+    "materialName": "TE09458 SHAFT SEAL RING  TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYIAY0225",
+    "materialName": "A200010094 SEAL KIT ROTARY JOINT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYIAY0222",
+    "materialName": "A200010048 SEAL KIT FOR CYLINDER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TGBTG0293",
+    "materialName": "CLUTCH PRESSURE COMBO 310 (272425400160+",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0045",
+    "materialName": "CLUTCH FORK",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0153",
+    "materialName": "F1860822/P3S00021 FRONT BREAK DRUM L/L 2",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0883",
+    "materialName": "P2N00004, A/L BALL JOINT LH SHIFT CABLE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0884",
+    "materialName": "P2N00005, A/L BALL JOINT RH SHIFT CABLE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10AUTMO0006",
+    "materialName": "F8S01700, A/L BRAKE CHAMBER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0094",
+    "materialName": "F3S00422 BRAKE DRUM 10 HOLE 410X220",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0190",
+    "materialName": "P4321751 SPRING BRAKE SHOE RETAINING Tip",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0197",
+    "materialName": "P5103870 REAR BRAKE LINER L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0178",
+    "materialName": "F4C01900 CL BOOSTER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FSTBT0303",
+    "materialName": "A15979020-0200; BOLT NUT M22X2.5X115 +M8",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0286",
+    "materialName": "DRAIN VALVE   WABCO",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECEAS0083",
+    "materialName": "26243492 SOL SWITCH  SELF LUCAS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10BATAB0002",
+    "materialName": "BATTERY 100A 12V MHD 1000",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10BATAB0003",
+    "materialName": "BATTERY  1300 MHD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10BATAB0002",
+    "materialName": "BATTERY 100A 12V MHD 1000",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10BATAB0003",
+    "materialName": "BATTERY  1300 MHD",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10BATAB0003",
+    "materialName": "BATTERY  1300 MHD",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10BATAB0002",
+    "materialName": "BATTERY 100A 12V MHD 1000",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0057",
+    "materialName": "CUMMINS 4BT LOWER GASKET KIT WITH OILSE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGMO0041",
+    "materialName": "CUMMINS 4BT FLYWHEEL RING 127 T",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYIAY0057",
+    "materialName": "TD03602/60, TWL3034 TILT CYL SEAL KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRMO0048",
+    "materialName": "STEERING CYLINDER SEAL KIT TD03602 TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECCP0004",
+    "materialName": "TD11851, TL340H FLEX COUPLING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0073",
+    "materialName": "WE00002 PIN TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGVL0006",
+    "materialName": "5292708, TL340H THERMOSTAT VALVE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0331",
+    "materialName": "PISTON WITH PIN 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGGA0062",
+    "materialName": "PISTON RING 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGBR0032",
+    "materialName": "MAIN BEARING STD 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGBR0033",
+    "materialName": "CON BEARING STD 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGBU0017",
+    "materialName": "CON ROD BUSH 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGBU0016",
+    "materialName": "CUMMINS 4BT CAMBUSH STD",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0332",
+    "materialName": "ENGINE LINNER SET 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGSL0022",
+    "materialName": "CAM TIKKI O RING 4 BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0441",
+    "materialName": "GUIDELINE CAM TIKKI  CUMMINS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGVL0026",
+    "materialName": "CUMMINS 4BT HEAD VALVE STD",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGSL0023",
+    "materialName": "TIMING OIL SEAL KIT 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBCC0084",
+    "materialName": "FRONT WINDSCREEN , LEYLAND 2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRVL0014",
+    "materialName": "508143700140 DUAL BRAKE VALVE ASSEMBLY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEEO0085",
+    "materialName": "METER DISPLAY 275454200128 275454200128-",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSSP0002",
+    "materialName": "TD10482, TL340H HOSE COOLANT OUTLET",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSSP0001",
+    "materialName": "TD10481, TL340H HOSE COOLANT INLET",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO0917",
+    "materialName": "257682400127, TATA WIPER ARM LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0189",
+    "materialName": "257682400129 WIPER BLADE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2906",
+    "materialName": "B6EO3701 DIPSTICK L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HOSHS0322",
+    "materialName": "F8PO0950 L HOSE RADIATOR OUTLET L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HOSFO0398",
+    "materialName": "F5D00268 Y-CONNECTOR DAT LINES L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECVL0117",
+    "materialName": "P7807639 CUT OFF VALVE L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HYIVL0038",
+    "materialName": "PL400010 - DIRECTIONAL CONTROL VALVE  L/",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ENGES0647",
+    "materialName": "P4300207 CAMSHAFT LOCKRING  L/L 2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECESE0184",
+    "materialName": "503954304903 DIESEL FLUIT( DIESEL METER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECELA0058",
+    "materialName": "327400051 HEAD LIGHT",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECEIN0006",
+    "materialName": "ASKOK LEYLAND 2518 SIDE INDICATOR",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HOSTU0014",
+    "materialName": "500747600108 (ASSY SUCTION PIPE FILTER T",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECVL0019",
+    "materialName": "PTO CONTROL VALVE hyva HT-1220-190 BAR",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10ECEEH0023",
+    "materialName": "IE452378 (ENGINE HARNESS)  EICHER PRO 20",
+    "company": "Eicher"
+  },
+  {
+    "materialCode": "10MECPI0022",
+    "materialName": "40X240, PIN",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO1973",
+    "materialName": "TC20687 MOUNTING  TMX20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYIAY0161",
+    "materialName": "TE11681 BUCKET CYL SEAL KIT TMX 20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ECELA0138",
+    "materialName": "FK005100 HEAD LIGHT ASSY WITH DUM  L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECELA0139",
+    "materialName": "F9E12600 NDICATOR ROUND WITH HOLDER  L/L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECESE0172",
+    "materialName": "FSR00800 SPEED SENSOR L/L 2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0373",
+    "materialName": "F3V04400 DDU ASSY  L/L CAPTAIN",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10CNBCC0169",
+    "materialName": "FENDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0408",
+    "materialName": "259288506305 END COVER BUMPER LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0407",
+    "materialName": "259288506306 END COVER BUMPER RH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30CNBGS0001",
+    "materialName": "DOOR HANDLE L TYPE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0114",
+    "materialName": "KONIYA RH SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0327",
+    "materialName": "HYD.HOSE ASSLY. 1/2\" R2 X 10 MTR LONG W",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSHS0328",
+    "materialName": "HYD. HOSE ASSLY 1/2\"R2X5 MTRLONG FS/FS",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSHS0329",
+    "materialName": "HYD. HOSE ASSLY 1/2\"R2X3 MTR LONG FS/FS",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSHS0330",
+    "materialName": "HYD. HOSE ASSLY 3/8\" R2 X 700MMLONG WIT",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSFO0399",
+    "materialName": "TEE-1/2\" BSP MALE",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSFO0400",
+    "materialName": "ADAPTOR-3/8\"BSP MALE /1/2\"BSP MALE",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HOSFO0401",
+    "materialName": "ADAPTOR-3/8\" X 3/8\"",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECSL0237",
+    "materialName": "DOWTY SEAL-1/2\"",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10HYIAY0227",
+    "materialName": "81808247 MAIN HYD PUMP SEAL KIT  HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECBU0140",
+    "materialName": "BUSH 85X70X70  L&T 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HOSFO0402",
+    "materialName": "ADAPTOR - 1\" BSP MALE / 1\" BSP MALE",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10HOSFO0403",
+    "materialName": "ADAPTOR - 1\" BSP MALE / 3/4\" BSP MALE",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10HYISL0384",
+    "materialName": "DOWTY SEAL - 1\"",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10HYISL0385",
+    "materialName": "DOWTY SEAL - 3/4\"",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10MECMO2939",
+    "materialName": "PIPE CLAMP - 38MM",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10MECOS0014",
+    "materialName": "G0010074, SEAL",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECOS0016",
+    "materialName": "G0010041, SEAL",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HYISL0374",
+    "materialName": "G0010052 SEAL Wheel Loader L&T 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECOS0015",
+    "materialName": "G0010072, SEAL",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECSL0231",
+    "materialName": "G0010033 LIP SEAL 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HYISO0001",
+    "materialName": "E2D0840C1506 FUEL GAUGE WL (LT1190) 9020",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECMO2531",
+    "materialName": "886741000070 UJ CROSS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2532",
+    "materialName": "287941109901 CROSS HOLDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEEA0001",
+    "materialName": "275454200120, TATA LPT 1913 INSTRUMENT C",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSL0004",
+    "materialName": "886709000022 INNER OIL SEAL",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECOS0106",
+    "materialName": "OUTER OIL SEAL",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSFP0003",
+    "materialName": "278607996949 FUEL PIPE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0217",
+    "materialName": "278609110110, TATA FUEL WS FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECGA0070",
+    "materialName": "5041 4920 5301 GASKET",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0401",
+    "materialName": "573714990142 FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0418",
+    "materialName": "573714990135 HSG FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0309",
+    "materialName": "278614999923 HOSE PIPE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0310",
+    "materialName": "570114995801 RED HOSE 1\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2806",
+    "materialName": "278614993904 TURBO STUD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECGA0017",
+    "materialName": "TURBO CHASMA COPPER GASKET",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2374",
+    "materialName": "278618994202 STEEL CLAMP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECELA0061",
+    "materialName": "265154400206 HEAD LIGHT LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECELA0031",
+    "materialName": "265154400205, HEADLIGHT RH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBOS0003",
+    "materialName": "269126257809 OIL SEAL  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0075",
+    "materialName": "263243700154 HAND BRAKE VALVE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0142",
+    "materialName": "886709000037, RLF ELEMENT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0117",
+    "materialName": "275243700108 BRAKE ACTUATOR",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYISL0285",
+    "materialName": "TE41428 SEAL TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ECESW0069",
+    "materialName": "278054506909, TATA 2518 COMBINATION SWIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECELA0134",
+    "materialName": "F3Z00160 METAL HEAD LAMP RH Tipper Ashok",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ECELA0135",
+    "materialName": "F3Z00260 METAL HEAD LAMP LH Tipper Ashok",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FSTBT0152",
+    "materialName": "6106829M91 WHEEL NUT ASSY",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10FSTBT0108",
+    "materialName": "1K0048 , STUD BOLT , MANITOU",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO2950",
+    "materialName": "6106483M92 DRIVE SHAFT KIT-MANITOU N/A",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO2951",
+    "materialName": "10X344 CROSS MANITOU",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10HOSHS0331",
+    "materialName": "3/4-4SHX2200MM-45/ST",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10HOSHS0332",
+    "materialName": "3/8 R2X600MM-ST/90-38-SPRING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0333",
+    "materialName": "1/2R2X500MM-ST/90-SPRING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0334",
+    "materialName": "3/8R2X1860MM 90/ST",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0335",
+    "materialName": "1\" -4SHX1200MM-SOCKET",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HOSHS0341",
+    "materialName": "1\" R2X500MM-SOCKET",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HOSHS0336",
+    "materialName": "5/8R2X750MM ST/ST",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0337",
+    "materialName": "5/8R2X350MM SOCKET",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0338",
+    "materialName": "5/8R2X600MM SOCKET",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0339",
+    "materialName": "5/8R2X750MM ST/ST",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0340",
+    "materialName": "3/8R2X750MM SOCKET",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0177",
+    "materialName": "P1620139 LINED SHOE ASSY",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO2956",
+    "materialName": "P1602736-SPRING ABUTMENT END",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0812",
+    "materialName": "FRONT LEAF SPRING MAIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1617",
+    "materialName": "L/EAF SPRING FRT  3RD  HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1153",
+    "materialName": "TATA SIGNA2823 FRNT SPRNG LEAF 4TH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1764",
+    "materialName": "CENTER BOLT 10\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1360",
+    "materialName": "LEAF SPRING CLAMP 6\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0224",
+    "materialName": "CLAMP BOLT 17 NO X 3.5\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1362",
+    "materialName": "REVIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECGC0001",
+    "materialName": "PATTI BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECGC0002",
+    "materialName": "PATTI PIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIDL0008",
+    "materialName": "QUARTER PIN  TATA HYB LPK2518/48",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECWH0008",
+    "materialName": "FRONT LEAF SPRING WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0126",
+    "materialName": "U BOLT 9\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1965",
+    "materialName": "CLAMP 11\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1593",
+    "materialName": "U BOLT 19\" T/HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0067",
+    "materialName": "DRUM WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBU0061",
+    "materialName": "BELL CRANK BUSH HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIPI0002",
+    "materialName": "BELL CRANK PIN BIG HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIPI0003",
+    "materialName": "BELL CRANK PIN SMALL HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECWH0034",
+    "materialName": "BELL CRANK  WASHER 5 MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECWH0033",
+    "materialName": "BELL CRANK  WASHER 6 MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIPI0006",
+    "materialName": "QUARTER PIN HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0222",
+    "materialName": "HANGER BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0238",
+    "materialName": "CENTER BOLT 24 NO 14\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIPI0005",
+    "materialName": "REAR LEAF SPRING PIN SMALL HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPI0028",
+    "materialName": "REAR LEAF SPRING PIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2408",
+    "materialName": "LEAF SPRING AUX B CAMPER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1363",
+    "materialName": "PATTI CLAMP 7\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2952",
+    "materialName": "267989200103-REAR CABIN SOCKER TIPPER T",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESE0153",
+    "materialName": "A400 542 07 18 00 Air pressure sensor Bh",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ECESE0183",
+    "materialName": "A0025450109 NEUTRAL SWITCH BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HYISL0375",
+    "materialName": "G10010089 SEAL Wheel Loader L&T 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECDL0001",
+    "materialName": "A4004110611 UNIVERSAL JOINT CROSS Tipper",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2586",
+    "materialName": "FYB00400 GANG SOLENOID",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10HYIAY0227",
+    "materialName": "81808247 MAIN HYD PUMP SEAL KIT  HM 2021",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10MECPI0019",
+    "materialName": "3088581, ZX220 PIN",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0017",
+    "materialName": "3088579, ZX220 PIN",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECAY0057",
+    "materialName": "TE07940, ZX220 BOOM CYLINDER SEAL KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECCB0012",
+    "materialName": "9323832, ZX220 ENGINE STOP CABLE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TGBTG0374",
+    "materialName": "G0010053-SUN GEAR L&T 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "30GNLGC0276",
+    "materialName": "GREASE NIPPLE (12MM DIA)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBU0055",
+    "materialName": "REAR LEAF SPRING BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10BATAB0002",
+    "materialName": "BATTERY 100A 12V MHD 1000",
+    "company": "Volvo"
+  },
+  {
+    "materialCode": "10MECMO1535",
+    "materialName": "6194916M1 SHAFT MANITOU",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO0891",
+    "materialName": "6190253M91, TEREX SPIDER KIT",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10SBRSB0188",
+    "materialName": "FY400300 REAR SLACK ADJUSTER RH Tipper A",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0187",
+    "materialName": "FY400500 REAR SLACK ADJUSTER LH Tipper A",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1578",
+    "materialName": "X8823400 AUTO SLACK ADJ RH CAPT 38MM",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECSL0152",
+    "materialName": "9246436, ZX220 PILOT LEVER SEAL W/BUS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0145",
+    "materialName": "YA00020177TC BUSHING HITACHI",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBU0146",
+    "materialName": "TC10450/04 BOOM CYLINDER BUSH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRVL0005",
+    "materialName": "4728971, VALVE AS CHECK HM2021D",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10SBRVL0003",
+    "materialName": "4728930, VALVE CHECK HM2021D",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10SBRVL0004",
+    "materialName": "4728937, VALVE-INVERSION HM2021D",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10HYIPU0004",
+    "materialName": "HYDRAULIC PUMP 4557577",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10MECMO1367",
+    "materialName": "LEAF SPRING REAR 90X25 MAIN L/L U2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1736",
+    "materialName": "U BOLT 15\" X 36 NO",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1630",
+    "materialName": "LEAF SPRING CLAMP REAR 8\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FSTBT0224",
+    "materialName": "CLAMP BOLT 17 NO X 3.5\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FSTBT0223",
+    "materialName": "REAR CENTER BOLT 14\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1361",
+    "materialName": "LEAF SPRING CLAMP 4\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1360",
+    "materialName": "LEAF SPRING CLAMP 6\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECBT0013",
+    "materialName": "U BOLT 10\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1764",
+    "materialName": "CENTER BOLT 10\"",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECGC0001",
+    "materialName": "PATTI BUSH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10DRIPI0006",
+    "materialName": "QUARTER PIN HYVA",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FSTWH0067",
+    "materialName": "DRUM WASHER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10TYRNY0022",
+    "materialName": "TYRE 14.00-25",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TYRTU0005",
+    "materialName": "TUBE 14.00-25",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TYRFZ0001",
+    "materialName": "FLAP 14.00-25",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBCC0485",
+    "materialName": "A4008200081 LU IMPLIMENT CARRIER/WIPER B",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10CNBCC0486",
+    "materialName": "A4008240728 WIPERARM BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HOSHS0343",
+    "materialName": "1/4 R2 X 4250MM LONG N/A",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TGBTG0188",
+    "materialName": "885425013118 GB750 CLUTCH & PRESSURE PLA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2986",
+    "materialName": "FRONT LEAF SPRING SET OF 10  CAPTAIN",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FLTAF0469",
+    "materialName": "AIR  FILTER 278609140149  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGMO0072",
+    "materialName": "278650120351 RADIATOR ASSY TATA  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2261",
+    "materialName": "288042108702 SPRING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0470",
+    "materialName": "886746000002 ST FILTER TATA  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1367",
+    "materialName": "LEAF SPRING REAR 90X25 MAIN L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1368",
+    "materialName": "LEAF SPRING REAR 90X25 2ND L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1369",
+    "materialName": "LEAF SPRING REAR 90X25 3RD L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0340",
+    "materialName": "272425200267 DISC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0116",
+    "materialName": "PRE PLATE ASSY B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TGBTG0117",
+    "materialName": "CLUTCH PLATE 395 B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TGBTG0118",
+    "materialName": "FLYWHEEL ASSY B/BENZ 395",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGPU0016",
+    "materialName": "A4002000401 COOLANT PUMP B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECBE0091",
+    "materialName": "8PK1939 FAN BELT B/BENZ B/BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRSB0183",
+    "materialName": "A4004204638 FRONT BRAKE ADJUSTMENT (RACC",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECSB0004",
+    "materialName": "A8314200724 FRONT BRAKE CYLINDER Tipper",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRSB0182",
+    "materialName": "A4004201338 BRAKE ADJUSTER RH (RACCHET)",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRSB0181",
+    "materialName": "A4004201238 BRAKE ADJUSTMENT LH (RACCHET",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ECEAS0309",
+    "materialName": "26024797 STARTER MOTOR BENZ",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRSB0173",
+    "materialName": "100307140 DDU UNIT",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FLTFF0001",
+    "materialName": "278609999822, TATA LPK2518 FUEL FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0334",
+    "materialName": "26245551 DRIVE ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0338",
+    "materialName": "26247643 DRIVE ASSY  LUCAS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30GNLGC0328",
+    "materialName": "26260267, STARTER BRUSH GEAR ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0336",
+    "materialName": "26247310 ARMETURE WITH BEARING  LUCAS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0373",
+    "materialName": "BELLOW L/L 680",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGES0373",
+    "materialName": "BELLOW L/L 680",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10FLTWR0147",
+    "materialName": "KF200500P-500HRS-FILTER KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO1299",
+    "materialName": "REAR LEAF SPRING MAIN",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2407",
+    "materialName": "LEAF SPRING AUX A CAMPER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2408",
+    "materialName": "LEAF SPRING AUX B CAMPER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2409",
+    "materialName": "LEAF SPRING REAR 3RD",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1370",
+    "materialName": "LEAF SPRING REAR 90X25 4TH L/L U2518",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTWH0053",
+    "materialName": "SIDE WASHER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTBT0225",
+    "materialName": "U BOLT 17\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1755",
+    "materialName": "CLAMP 9\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECBH0006",
+    "materialName": "FRONT BUSH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ENGES0561",
+    "materialName": "279001107801 OIL SEAL CRANK SHAFT T/ACE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGMO0048",
+    "materialName": "278603999972 FLYWHEEL HOUSING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPI0074",
+    "materialName": "TD03664 PIN TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO0665",
+    "materialName": "TD10843 , RUBBER STOPPER HITACHI TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECCB0057",
+    "materialName": "TD33509 ACCELERATOR CABLE ASSEMBLY TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3001",
+    "materialName": "SILENCER BELOW 3 1/4X12\"(BENZ)",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3002",
+    "materialName": "BRASS SOCKET 24 NO(BENZ)",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3003",
+    "materialName": "SOCKET 24X24( BENZ)",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0226",
+    "materialName": "BREAK SHOE ROLLER(BENZ)",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO2860",
+    "materialName": "TD26943 COUPLING WITH SPLINE TMX20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGMO0073",
+    "materialName": "TE36360/FAN TMX 20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2777",
+    "materialName": "3\" GATE VALVE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMP0001",
+    "materialName": "TB00971, TL340H HYDRAULIC PUMP",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO1773",
+    "materialName": "TC26448 COUPLING   TL340 PRIME",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTHF0155",
+    "materialName": "TE31491 FILTER ELEMENT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0186",
+    "materialName": "4437838, ZX400 AIR BREATHER OEM",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTWR0037",
+    "materialName": "TE07459/FILTER CARTRIDGE (R902601380)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TGBTG0331",
+    "materialName": "0801BA0890N CLUTCH DISC ASSEMBLY DIA 240",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10TGBTG0332",
+    "materialName": "0801BA0880N CLUTCH COVER ASSEMBLY DIA 24",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10TGBTG0330",
+    "materialName": "0802CA2640N BEARING CLUTCH RELEASE(FLAT)",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10TGBTG0004",
+    "materialName": "FLY WHEEL RING TATA LPT 710 RANE",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO3016",
+    "materialName": "A590010142-BARE HANGER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3017",
+    "materialName": "B010010370-PIN CYLINDER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3010",
+    "materialName": "A190010081-CYLINDER ASSY(CLAMSHELL)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBCC0255",
+    "materialName": "FRONT WINDSCREEN LPK2518 BS IV",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIBU0013",
+    "materialName": "ARM BUSH TE23415 HITACHI ZX -220",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2645",
+    "materialName": "4454561 RING BUSH COLLER ZX220",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO1938",
+    "materialName": "288032403225 CENTRE BOLT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECBT0012",
+    "materialName": "CLAMP BOLT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGGA0011",
+    "materialName": "278601989918 TAPPED PACKING",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECCY0023",
+    "materialName": "275029100102 CLUTCH CYLINDER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO0551",
+    "materialName": "506929300104 CLUTCH BOOSTER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGMO0056",
+    "materialName": "278650120261 RADIATOR WITH BRACKET T/HYV",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRNY0042",
+    "materialName": "TYRE 10.00X20 REAR *",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRRD0006",
+    "materialName": "1000-20 TUBE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRNY0024",
+    "materialName": "1000-20 FLAP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRNY0042",
+    "materialName": "TYRE 10.00X20 REAR *",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TYRRD0006",
+    "materialName": "1000-20 TUBE",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10TYRNY0024",
+    "materialName": "1000-20 FLAP",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10BATAB0004",
+    "materialName": "BATTERY 130A 12V MHD 1300",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10BATAB0004",
+    "materialName": "BATTERY 130A 12V MHD 1300",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1612",
+    "materialName": "80X580 PIN ZX220",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10ENGES0124",
+    "materialName": "4614911, ENGINE CONTROL MOTOR",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO1593",
+    "materialName": "U BOLT 19\" T/HYVA",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1630",
+    "materialName": "LEAF SPRING CLAMP REAR 8\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTBT0224",
+    "materialName": "CLAMP BOLT 17 NO X 3.5\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3026",
+    "materialName": "CENTER BOLT 16\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECBU0058",
+    "materialName": "BELL CRANK BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0225",
+    "materialName": "U BOLT 17\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0223",
+    "materialName": "REAR CENTER BOLT 14\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1772",
+    "materialName": "CLAMP 5\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1755",
+    "materialName": "CLAMP 9\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECWH0035",
+    "materialName": "BELL CRANK  WASHER 4 MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0053",
+    "materialName": "SIDE WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1299",
+    "materialName": "REAR LEAF SPRING MAIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2407",
+    "materialName": "LEAF SPRING AUX A CAMPER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPI0021",
+    "materialName": "FRONT LEAF SPRING PIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBH0006",
+    "materialName": "FRONT BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBT0013",
+    "materialName": "U BOLT 10\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIBT0004",
+    "materialName": "HANGER BOLT HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIVL0036",
+    "materialName": "14750700 AIR CONTROL VALVE BENZ 2823C",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HYIVL0036",
+    "materialName": "14750700 AIR CONTROL VALVE BENZ 2823C",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPU0018",
+    "materialName": "312908313TOS PTO PUMP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0349",
+    "materialName": "HYD. HOSE ASSLY. 1/8\" R7 X 3500 MM LONG",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1354",
+    "materialName": "LEAF SPRING FRT 2ND L/L U2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1355",
+    "materialName": "LEAF SPRING FRT AUX A L/L U2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECGC0002",
+    "materialName": "PATTI PIN",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO1300",
+    "materialName": "REAR LEAF SPRING 2ND",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1753",
+    "materialName": "U BOLT 18\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBT0012",
+    "materialName": "CLAMP BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIHI0003",
+    "materialName": "BOBCAT CAP HYD 6727475 BOBCAT S450",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10FLTOF0250",
+    "materialName": "7343102 ENGINE OIL FILTER BOBCAT S590",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10FLTAF0449",
+    "materialName": "7286322 AIR FILTER OUTER BOBCAT S590",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10ONLLB0114",
+    "materialName": "46982167 ENGINE OIL",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10FLTHF0017",
+    "materialName": "HYDRAULIC OIL FILTER 7319444 BOBCAT S450",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10FLTHF0152",
+    "materialName": "7414581 HYD FILTER  BOBCATS450",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10FLTWR0133",
+    "materialName": "7336334/46825328 ELEMENT FILTER BOBCAT S",
+    "company": "JCB"
+  },
+  {
+    "materialCode": "10ECEEA0222",
+    "materialName": "GE00097 EMERGENCY SWITCH SPRINT GILBARCO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0445",
+    "materialName": "PP90014 INLET FILTER DISPENSOR GILBARCO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0844",
+    "materialName": "BHARATBENZ 2523 WINDOW REGULATOR RH",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2322",
+    "materialName": "271526710146 ASSY. INTERLOCK BS2/3/4/6 S",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0350",
+    "materialName": "1-3/4\" R4 X 1330 MM B. HOSE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1048",
+    "materialName": "RADIATOR MOUNTING 24 NO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1045",
+    "materialName": "STEEL CLAMP TB146 (6\")",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0378",
+    "materialName": "271526204624 synchro cone",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0379",
+    "materialName": "271526204625 SYNCHRO RING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0380",
+    "materialName": "271526204622 SYNCHRO RING(1180)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0381",
+    "materialName": "885426023518 DOG KIT(1180)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0382",
+    "materialName": "271526204311 CIRCLIP (1180)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0383",
+    "materialName": "216741120114 LONG FORK(1180)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0384",
+    "materialName": "281941120108 CROSS ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0385",
+    "materialName": "271526204632 ENGAGING GEAR",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0386",
+    "materialName": "257624100101 ENGINE MOUNT PAD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0391",
+    "materialName": "HEX BOLT M16X55 + MC WSR",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10GNLGC0007",
+    "materialName": "GI CLAMP 1\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0954",
+    "materialName": "CLAMP 00M STEEL",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0302",
+    "materialName": "BOLT M8X20",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30GNLGC0461",
+    "materialName": "CLAMP 2\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2030",
+    "materialName": "3.5 \" HOSE CLAMP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIVL0020",
+    "materialName": "472-8998 VALVE ASSEMBLY CONTROL",
+    "company": "Caterpillar"
+  },
+  {
+    "materialCode": "10HYIVL0020",
+    "materialName": "472-8998 VALVE ASSEMBLY CONTROL",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ECEAS0044",
+    "materialName": "26021592, LUCAS TVS ALTERNATOR SA45 24V",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO0843",
+    "materialName": "BHARATBENZ 2523 WINDOW REGULATOR LH",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10CNBCC0296",
+    "materialName": "GLASS RUBBER FRONT HYVA 2516",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10ENGES0671",
+    "materialName": "4384786-INJECTOR OF TATA HYWA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYICY0029",
+    "materialName": "R21030101  HYD CYLINDER ASSY   CLAMPSHEL",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0354",
+    "materialName": "002209-411810A HOSE   CLAMPSHELL",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0355",
+    "materialName": "002212-711809B HOSE   CLAMPSHELL",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3045",
+    "materialName": "GE001430001 BOOT SWITCH & CABLE EARTH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECFT0002",
+    "materialName": "289254200116 Diesel Tank fluid Unit",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0369",
+    "materialName": "TE36365 ELEMENT FUEL (41650-550800)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTOF0210",
+    "materialName": "TE36444 FILTER (119005-35151)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0452",
+    "materialName": "TD09601 AIR FILTER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0451",
+    "materialName": "TD09602 AIR FILTER INNER TMX 20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTFF0368",
+    "materialName": "TE36445 FILTER FUEL (4658695)",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10BATAB0001",
+    "materialName": "BATTERY 80A 12V MHD 800",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TYRTU0005",
+    "materialName": "TUBE 14.00-25",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO2408",
+    "materialName": "LEAF SPRING AUX B CAMPER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10CNBCC0112",
+    "materialName": "PANEL ( BATTA ) SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0413",
+    "materialName": "KONIYA INNER TATA HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0113",
+    "materialName": "PALLA RH SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0158",
+    "materialName": "PALLA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0166",
+    "materialName": "580525200108 / 430 DIA CLUTCH PLATE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0362",
+    "materialName": "FLYWHEEL RING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0012",
+    "materialName": "DIESEL TANK CAP 504147100105",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10ENGES0012",
+    "materialName": "DIESEL TANK CAP 504147100105",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGES0012",
+    "materialName": "DIESEL TANK CAP 504147100105",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBE0068",
+    "materialName": "FAN BELT 8PK1780",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10BATAB0002",
+    "materialName": "BATTERY 100A 12V MHD 1000",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10DRIDL0086",
+    "materialName": "932900058300 FLANGE YOKE 3502903",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10DRIDL0035",
+    "materialName": "101586720000 UJ KIT ACE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO0538",
+    "materialName": "LOCK - FEMALE 1TJ0176M1",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO0539",
+    "materialName": "SIDE WINDOW LOCK ASSY MALE 1TJ0177M1",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "1OMECMO0540",
+    "materialName": "DOOR GAS STRUT PRAVI 1J0220",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10FLTHF0198",
+    "materialName": "P550486 / 6112184M1 OIL FILTER MANITOU",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "30GNLGC0271",
+    "materialName": "1B0560, FUEL TANK CAP",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO1932",
+    "materialName": "O RING BOX KIT-3",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO3055",
+    "materialName": "216729100105-CLUTCH CYLINDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0969",
+    "materialName": "206729100121 CLUTCH CYLINDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3056",
+    "materialName": "502830100106 -accelerator wire",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ONLMI0002",
+    "materialName": "BRAKE FLUID (DOT 4) - 500 ML 886399000",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0446",
+    "materialName": "Steel pipe-6mm",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3057",
+    "materialName": "SOCKET 12/12",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSFP0004",
+    "materialName": "DIESEL PIPE RUBBER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECFO0004",
+    "materialName": "JUBLEE CLAMP STEEL 1X",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0444",
+    "materialName": "8 HEAD X 1\" LONG BOLT WITH NUT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0446",
+    "materialName": "6 HEAD X 3/4\" LONG BOLT WITH NUT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0049",
+    "materialName": "M8, PLATE WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0420",
+    "materialName": "223387100112 AIR BREATHER BS4,BS6",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2438",
+    "materialName": "217132407105 LEAF SPRING 4 NO TATA 2823",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBT0014",
+    "materialName": "U BOLT 11\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3047",
+    "materialName": "FRONT JHULA-caption ashok leyland",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3048",
+    "materialName": "FRONT HANGER-caption ashok leyland",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10CNBCC0190",
+    "materialName": "WIPER ROD SET OF 2",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEEU0004",
+    "materialName": "550754904903, AIR PRESSURE TRANSDUCER BS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0204",
+    "materialName": "BUMPER  HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0060",
+    "materialName": "F002G20946, ARMATURE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0216",
+    "materialName": "JLG 80 FT KATORI BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0155",
+    "materialName": "SELF LOCK KIT SET WITH CAP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0004",
+    "materialName": "HYVA FIELD COIL 0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0152",
+    "materialName": "LOCK KIT SELF BOSCH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0463",
+    "materialName": "FRONT TOP INNER PATTA TATA2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0061",
+    "materialName": "886725000020 CLUTCH LINER GB -750",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1265",
+    "materialName": "259445200102 SHIFTER CYLINDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0264",
+    "materialName": "PTO SOCKET",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0165",
+    "materialName": "6193395M1 BRAKE LINER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0166",
+    "materialName": "6193396M1 BRAKE SPACER PLATE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0167",
+    "materialName": "6193397M1 GEAR",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0174",
+    "materialName": "6193399M1 BRAKE DRIVE PLATE MANITOU",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2493",
+    "materialName": "6193402M1 QUADRING TLB844S",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2494",
+    "materialName": "6193403M1 QUADRING TLB844S",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECSL0069",
+    "materialName": "6193333M1, MANITOU TLB844S O RING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2524",
+    "materialName": "S41021 PORT 1,2,4-GI/4 3,5-G1/8",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0162",
+    "materialName": "278605999912 CAM SUPPORT E3 TML",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0209",
+    "materialName": "CON BOLT  TATA 697",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0136",
+    "materialName": "278603999973, PISTON WITH PIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECRI0013",
+    "materialName": "278603990244 PISTON RING BS6",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0187",
+    "materialName": "CON ROD BEARING 6BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBR0071",
+    "materialName": "278603990202, MAIN BEARING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0729",
+    "materialName": "278603993401, CONNECTING ROD BUSH SET OF",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2519",
+    "materialName": "278601990145 UPPER GASKET TATA TIPPER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2520",
+    "materialName": "573701990147 LOWER GASKET TATA TIPPER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0125",
+    "materialName": "278601993402, CAM BUSH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0263",
+    "materialName": "LINNER K2007601763 MAKE TIGER  TATA 697",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECRI0006",
+    "materialName": "CAM TIKKI WITH O RING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0441",
+    "materialName": "GUIDELINE CAM TIKKI  CUMMINS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0163",
+    "materialName": "HEAD VALVE LOCK E3",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0183",
+    "materialName": "TIMING OIL SEAL KIT BS4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGVL0046",
+    "materialName": "VALVE CYL HEAD C4.4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0019",
+    "materialName": "HT BOLT NUT M14X60",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0328",
+    "materialName": "M14X110 HEX BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0036",
+    "materialName": "HT HEX BOLT  M10X100",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0404",
+    "materialName": "16X2X60 BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0393",
+    "materialName": "272425200192-clutch plate 407",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0394",
+    "materialName": "clutch bearing 407",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0231",
+    "materialName": "263243700151 hand break",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0041",
+    "materialName": "PRIMARY ELEMENT AIR FILTER 253409130356",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYISL0398",
+    "materialName": "A810190/O-RING 1AG190",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYIVL0041",
+    "materialName": "SOLENOID VALVE-20Y-60-32121",
+    "company": "Komatsu"
+  },
+  {
+    "materialCode": "10HOSHS0359",
+    "materialName": "1/2 R6 X 600 MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0360",
+    "materialName": "1/4 R2X1070MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0363",
+    "materialName": "3/4 R2 X 1650 MM LONG",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HOSHS0364",
+    "materialName": "1/4 R2 X 450 MM LONG",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HOSHS0366",
+    "materialName": "3/8 R2 X 320 MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBCC0294",
+    "materialName": "DOOR LOCK 709",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0003",
+    "materialName": "BRAKE SHOE AS 4755382-",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO2096",
+    "materialName": "475/5391 SPRING BRAKE 2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO1942",
+    "materialName": "5029582 BRAKE CHAMBER LH HM2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10SBROS0003",
+    "materialName": "4755412 OIL SEAL HM 2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10HYISL0057",
+    "materialName": "LIFT CYLINDER KIT HM2021D 477-6404 HM 20",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO2571",
+    "materialName": "5029581 BRAKE CHAMBER RH  2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECMO1367",
+    "materialName": "LEAF SPRING REAR 90X25 MAIN L/L U2518",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1369",
+    "materialName": "LEAF SPRING REAR 90X25 3RD L/L U2518",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTBT0223",
+    "materialName": "REAR CENTER BOLT 14\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1752",
+    "materialName": "L/S REAR AUX A TATA",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO1753",
+    "materialName": "U BOLT 18\"",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTWH0067",
+    "materialName": "DRUM WASHER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2986",
+    "materialName": "FRONT LEAF SPRING SET OF 10  CAPTAIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1895",
+    "materialName": "FRONT LEAF SPRING MAIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1896",
+    "materialName": "FRONT LEAF SPRING 2ND",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0537",
+    "materialName": "ENGINE SEAT E3 278605999967",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0452",
+    "materialName": "FUEL FILTER-21538975",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTFF0453",
+    "materialName": "FUEL FILTER -3838852",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0477",
+    "materialName": "INSERT  FILTER -22296415",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTOF0271",
+    "materialName": "OIL FILTER KIT-23273538",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGPS0014",
+    "materialName": "PISTON ASSY  XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGRI0034",
+    "materialName": "PISTON RING ASSY  XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBR0024",
+    "materialName": "MAIN BEARING STD TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0577",
+    "materialName": "278903150134 BIG END BEARING (STD) XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGWH0015",
+    "materialName": "CAM BUSH TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0607",
+    "materialName": "THRUST WASHER C4.4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBU0013",
+    "materialName": "CON ROD BUSH TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0312",
+    "materialName": "ENGINE LINNER STD TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGPU0045",
+    "materialName": "278918100102 OIL PUMP XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGVL0025",
+    "materialName": "HEAD VALVE 60 DEG 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0595",
+    "materialName": "VALVE LOCK YODHA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0314",
+    "materialName": "HEAD GUIDE 60 DEG 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0580",
+    "materialName": "279705157802 VALVE SEAL XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0605",
+    "materialName": "VALVE SEAT C4.4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0386",
+    "materialName": "CAM SHAFT   DG2",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0055",
+    "materialName": "GASKET FULL TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGOS0009",
+    "materialName": "MAIN OIL SEAL TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGOS0012",
+    "materialName": "TIMING OIL SEAL 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTOF0061",
+    "materialName": "OIL FILTER 253418130169 TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0213",
+    "materialName": "253409110117 FUEL FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRISP0009",
+    "materialName": "WL10230C3101, L&T 9020 PROPELLER SHAFT",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10SBRSB0025",
+    "materialName": "272425200215 CLUTCH DISC 380 DIA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0096",
+    "materialName": "573703999906 FLYWHEEL ASSY278603999825,",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0380",
+    "materialName": "26248410 ARMATURE",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ECEAS0381",
+    "materialName": "26246904 DRIVE ASSY",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ECEAS0382",
+    "materialName": "SOLENOID ASSY. 26264083",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ECEAS0169",
+    "materialName": "26248685 BRUSH GEAR   LUCAS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0383",
+    "materialName": "EG7 GEAR",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0377",
+    "materialName": "F002G70285 BRUSH HOLDER BOSCH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0378",
+    "materialName": "F002G70220 ARMATURE BOSCH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0379",
+    "materialName": "F002G70356 SOLENOID BOSCH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0194",
+    "materialName": "F002G20517 DRIVE ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0716",
+    "materialName": "G0010031, FLANGE",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECBR0262",
+    "materialName": "G0010032 BEARING 9020 SX",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10ENGES0064",
+    "materialName": "FLYWHEEL ASSY BS6 380D SENSING HOLE B3F1",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBBR0004",
+    "materialName": "FLYWHEEL BEARING  L/L",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRPU0011",
+    "materialName": "275446600101 STEARING PUMP  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBOS0001",
+    "materialName": "257428207802 M/S OIL SEAL",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0069",
+    "materialName": "278614995301 ; GASKET EXHAUST",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIGA0004",
+    "materialName": "CHASMA PACKING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0261",
+    "materialName": "268082400116 WIPER ACC KIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECELA0005",
+    "materialName": "SIDE INDICATOR  TATA LPK 1616",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRNY0041",
+    "materialName": "TYRE 10.00X20 FRONT *",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TYRNY0041",
+    "materialName": "TYRE 10.00X20 FRONT *",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HYIAY0160",
+    "materialName": "SSP11438 / TC30094/60 SWING CYL SEAL KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3063",
+    "materialName": "475-5392 Circlip Locks HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10SBRSB0232",
+    "materialName": "502-9583  BRAKE ADJUSTER HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10HYIAY0237",
+    "materialName": "507-1260 TILT CYL SEAL KIT HM 2021",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ENGES0431",
+    "materialName": "6481051 ETV VALVE  CUMMINS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0483",
+    "materialName": "HEX BOLT 3/4 xX 3 WITH NUT",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10MECPI0160",
+    "materialName": "PIN 40X140MM",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0161",
+    "materialName": "PIN 40X170MM",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0225",
+    "materialName": "9254914340/287943700130 BRAKE ACT 24/24",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0258",
+    "materialName": "M22X200 HT BOLT , NUT WASHER",
+    "company": "BEML"
+  },
+  {
+    "materialCode": "10ENGES0373",
+    "materialName": "BELLOW L/L 680",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0787",
+    "materialName": "276349205301, SILENCER PACKING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1594",
+    "materialName": "278614999931 TURBO CLAMP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTOF0273",
+    "materialName": "KF2001000P/1000HRS FILTER KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2258",
+    "materialName": "263142103701 REAR HUB BRAKE DRUM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0021",
+    "materialName": "885442071618 , BRAKE SHOE SET OF 4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3000",
+    "materialName": "288042300124 ASSY AUTO SLACK ADJUSTER LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0147",
+    "materialName": "288042108702 BRAKE SHOE SMALL SPRING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3078",
+    "materialName": "29371498 SPRING CAM END",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRIGA0001",
+    "materialName": "AXLE PACKING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0065",
+    "materialName": "HAND BRAKE PIN TATA 1616",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0819",
+    "materialName": "6\" SPLIT PIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0692",
+    "materialName": "885426012516, DETENT KIT TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0528",
+    "materialName": "BREAK CAM WASHER + LOCK",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3079",
+    "materialName": "284181100103-GRILL CENTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3080",
+    "materialName": "284181106301 GRILL LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0527",
+    "materialName": "284181106302 GRILL RH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ONLMI0004",
+    "materialName": "BRAKE OIL  1 LTR PACK DOT-3",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0396",
+    "materialName": "29066526 12MM CLUTCH SLEEVE CYLINDER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ONLLB0006",
+    "materialName": "VALVOLINE GEAR GUARD EP 80W90 0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30GNLGC0361",
+    "materialName": "THREE BOND  SILICON BLACK NO.5",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESW0120",
+    "materialName": "TE09149, TL340H IGNITION SWITCH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0154",
+    "materialName": "F0010003 AIR FILTER ELEMENT SAFETY L&T 9",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10FLTAF0158",
+    "materialName": "F0010005 , AIR FILTER ELEMENT PRIMARY ,",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HYIHF0012",
+    "materialName": "WL10690C5562- Hyd Oil filter",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10FLTHF0059",
+    "materialName": "A0010559 FILTER ELEMENT NEW L&T 9020",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10MECMO3077",
+    "materialName": "277842100101-SLACK ADJUSTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECAY0089",
+    "materialName": "10X2622, TLB844S STABILIZER CYL SEAL KIT",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10CNBCC0524",
+    "materialName": "A4008240101-WIPER MOTER ASSY",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10CNBCC0525",
+    "materialName": "A4008240128-WIPER ARM ASSY",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10CNBCC0480",
+    "materialName": "A4008240127 WIPER BLADE Tipper BHARATBEN",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10CNBCC0526",
+    "materialName": "A4008240249 COVER CAP WIPER",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ECEEO0043",
+    "materialName": "FIELDCOIL ,  26253323 ,  LUCAS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ECEAS0014",
+    "materialName": "CARBON SET 26244619 LUCAS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ECEAS0037",
+    "materialName": "ARMATURE ASSY ,  26253312 ,  LUCAS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0233",
+    "materialName": "270742300101-BREAK CHAMBER 710",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPU0033",
+    "materialName": "PTO PUMP 236903",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0367",
+    "materialName": "1/2 4SH X 1200 MM LONG",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HOSHS0368",
+    "materialName": "3/4 4SH X 3000 MM LONG",
+    "company": "L&T"
+  },
+  {
+    "materialCode": "10HOSHS0367",
+    "materialName": "1/2 4SH X 1200 MM LONG",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10HOSHS0368",
+    "materialName": "3/4 4SH X 3000 MM LONG",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10HOSHS0369",
+    "materialName": "DIESEL HOSE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSFO0404",
+    "materialName": "1 BSP MALE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0370",
+    "materialName": "3/4 4SH X 1050 MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0371",
+    "materialName": "1/4 R2 X 3440 MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HOSHS0372",
+    "materialName": "1/2 R2 X 500 MM LONG",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBR0141",
+    "materialName": "272425600289 CLUTCH RELEASE BEARING GB 7",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1557",
+    "materialName": "PVC JOINTER 6MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30MECMO0028",
+    "materialName": "12MM, PU JOINTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRHS0009",
+    "materialName": "PU AIR PIPE 12 MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGPU0021",
+    "materialName": "573720999901 PUMP WATER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECFB0090",
+    "materialName": "8PK1555 FAN BELT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1357",
+    "materialName": "LEAF SPRING FRT 3RD L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1354",
+    "materialName": "LEAF SPRING FRT 2ND L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0682",
+    "materialName": "253405167901-PUSH ROD INLET AND EXHAUST",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0287",
+    "materialName": "253405139902 PUSH GUIDE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3086",
+    "materialName": "13650510091-KEY 8 X 13",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0683",
+    "materialName": "253403110192-FLYWHEEL ASSY WITH RING GEA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3087",
+    "materialName": "253401170102-ASSY.TUBE DIPSTICK W/SLIP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3088",
+    "materialName": "253401170145-ASSY OIL DIPSTICK",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTHF0243",
+    "materialName": "252301170122-BREATHER BS1/2/3/4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0380",
+    "materialName": "253450110280-HOSE ASSY (RADIATOR TO WATE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ACCAI0060",
+    "materialName": "253420120252-THERMOSTAT ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0381",
+    "materialName": "253420125837-HOSE(UCWL TO THERMOSTAT)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0382",
+    "materialName": "253420125834-HOSE (THERMO TO RAD)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0383",
+    "materialName": "253420125838-HOSE(THERMOSTAT TO WATER PU",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBMO0047",
+    "materialName": "272425200220 CLUTCH DISC ASSY DIA 260 TA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBMO0046",
+    "materialName": "272425400188 CLUTCH COVER ASSY DIA 260 T",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBBR0071",
+    "materialName": "272425600157-ASSY.CL.REL.BRG.W/PLASTIC S",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3089",
+    "materialName": "SPEEDO METER PINION",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3090",
+    "materialName": "SPEEDO METER ADAPTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0160",
+    "materialName": "100450611 ZDS DDVB 9 XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRCY0016",
+    "materialName": "29066889 TVS TMC ASSY XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCB0003",
+    "materialName": "ROOF PARTITION T/HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0172",
+    "materialName": "MAIN GLASS RUBBER",
+    "company": "BEML"
+  },
+  {
+    "materialCode": "10CNBCC0330",
+    "materialName": "SAFETY GLASS 5 MM THICKNESS",
+    "company": "BEML"
+  },
+  {
+    "materialCode": "10CNBCC0301",
+    "materialName": "R/C LOCK",
+    "company": "BEML"
+  },
+  {
+    "materialCode": "10CNBCC0172",
+    "materialName": "MAIN GLASS RUBBER",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBR0023",
+    "materialName": "BEARING 32217",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSFO0402",
+    "materialName": "ADAPTOR - 1\" BSP MALE / 1\" BSP MALE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSFO0403",
+    "materialName": "ADAPTOR - 1\" BSP MALE / 3/4\" BSP MALE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYISL0384",
+    "materialName": "DOWTY SEAL - 1\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYISL0385",
+    "materialName": "DOWTY SEAL - 3/4\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0385",
+    "materialName": "HYD. HOSE ASSLY. 1\" R2 X 1600MM LONG WIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2412",
+    "materialName": "278244400103 PLASTIC HYDRAULIC RESERVOIR",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTOF0123",
+    "materialName": "278246609901, TATA 2518 STRNG OIL FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ONLLB0018",
+    "materialName": "VALVOLINE STEARING OIL TASA FLUID 0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HOSHS0384",
+    "materialName": "GPS10LRUBBER HOSE 10MM 1D 10M TMX 20",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECBE0072",
+    "materialName": "8PK1250 VBELT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0316",
+    "materialName": "M22X2.5X98 STUD BOLTAND NUT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESW0034",
+    "materialName": "STOP LIGHT SWITCH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBR0279",
+    "materialName": "F0P02610-FRONTAXLE TAPER ROLLER BEARING-",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECOS0127",
+    "materialName": "FA602100-OIL SEAL HUB",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO2409",
+    "materialName": "LEAF SPRING REAR 3RD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1370",
+    "materialName": "LEAF SPRING REAR 90X25 4TH L/L U2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBE0023",
+    "materialName": "8PK1363 , FAN BELT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FLTAF0081",
+    "materialName": "AIR FILTER PRIMARY FG802600",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10DRIDL0093",
+    "materialName": "68740270510 CROSS HOLDER",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10DRIDL0094",
+    "materialName": "RLL7931 PS CROSS",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10TGBCB0002",
+    "materialName": "F9S14500 SHIFTER CABLE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3103",
+    "materialName": "552749200123 EXHAUST PIPE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3104",
+    "materialName": "251526706001-LEVER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2120",
+    "materialName": "250726700152 GEAR LEVER END",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2121",
+    "materialName": "885426024018 GEAR LEVER END",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBU0001",
+    "materialName": "BUSH 1B0711 MANITOU",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO3100",
+    "materialName": "1B1069-PIN  Backhoe Loader MANITOU TLB84",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO3101",
+    "materialName": "1B1071-PIN  Backhoe Loader MANITOU TLB84",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECPI0037",
+    "materialName": "1B1091, MANITOU TLB844S PIN",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECBU0025",
+    "materialName": "3522862M2, TEREX BUSHING",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECBU0104",
+    "materialName": "3520033M1 BUSHING",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECBU0103",
+    "materialName": "3521716M1 BUSH",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECPI0091",
+    "materialName": "1B1079 PIN",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECPI0090",
+    "materialName": "1B1070 PIN LOADER",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10MECMO1867",
+    "materialName": "506946800103 PRESSURE LINE ASSEMBLY SIGN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTOF0249",
+    "materialName": "503046600107 STEERING FILTER WATER TANKE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3072",
+    "materialName": "HEXNUT 280941109904 TIPPER TATA SIGNA 28",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3071",
+    "materialName": "COUPLING FLANGE AND DUST COVER 501341100",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0266",
+    "materialName": "M12X30 HT BOLT , NUT WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0431",
+    "materialName": "6481051 ETV VALVE  CUMMINS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10DRIDL0092",
+    "materialName": "FT359A FLANGE DRIVE SHAFT SIGNA 2823",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0405",
+    "materialName": "276325400105 PRE PLATE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0406",
+    "materialName": "276325200107 CLUTCH PLATE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0407",
+    "materialName": "3222600625-SYNCHRONIZER ASSY",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0408",
+    "materialName": "3222620112-2Nd Speed Gear (32-T)",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0409",
+    "materialName": "250526203802-Synchronising Cone Spring T",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0410",
+    "materialName": "885426041612 DOG KIT",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0411",
+    "materialName": "250526350106- REVERSE IDLER GEAR",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0154",
+    "materialName": "581225601602 RELEASE BEARING",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0412",
+    "materialName": "3402620134 -Top Gear",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0413",
+    "materialName": "250526203106- BALL BEARING",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0414",
+    "materialName": "3212623062-BUTTING RING",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0415",
+    "materialName": "3212620674- ROLLER CHARVA",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0416",
+    "materialName": "3122621172- Top Gear Check Nut",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0417",
+    "materialName": "250526204302- TOP CHAND WITH SPRING",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0418",
+    "materialName": "FORK GOLI SPRING SET",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10SBRSB0179",
+    "materialName": "A4014201424 BRAKE CYLINDER LH Tipper BHA",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10ENGBE0031",
+    "materialName": "8PK1750, BELT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECBR0227",
+    "materialName": "284633403102 TAPPER ROLLER BEARING 6.5T",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBR0197",
+    "materialName": "284633403101 FRT INNER BEARING",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0331",
+    "materialName": "PISTON WITH PIN 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0062",
+    "materialName": "PISTON RING 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBR0032",
+    "materialName": "MAIN BEARING STD 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBR0033",
+    "materialName": "CON BEARING STD 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBU0017",
+    "materialName": "CON ROD BUSH 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGGA0095",
+    "materialName": "AIR COMP PACKING KIT E3",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBU0018",
+    "materialName": "CAM BUSH STD 4BT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0122",
+    "materialName": "ENGINE LINNER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0308",
+    "materialName": "HEAD SEAT 60 DEG TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0461",
+    "materialName": "HEAD GASKET FULL KIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGMO0023",
+    "materialName": "PUSH ROD GUIDE HEENO EURO 3",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0971",
+    "materialName": "272425400232, TATA 710 PRESSURE PLATE AS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0376",
+    "materialName": "272425200232 CLUTCH DISC ASS DIA 280(LPT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0375",
+    "materialName": "272425600285-CLUTCH RELEASE BEARING (LPT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTOF0092",
+    "materialName": "LF0902800 / 252718130145 , OIL FILTER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0040",
+    "materialName": "AIR FILTER PRIMARY 252709130329 TATA HYV",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTAF0039",
+    "materialName": "ELEMENT AIR CLEANER 252709130330 TATA HY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FLTFF0218",
+    "materialName": "279709119901, KIT FUEL PRE- FILTER ELEME",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0310",
+    "materialName": "THRUST WASHER TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0156",
+    "materialName": "253403110180 FLYWHEEL ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2124",
+    "materialName": "278650120352 REVERSE TANK ASSY. BS3/4/6",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1670",
+    "materialName": "L/S JHULLA REAR BOLERO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPI0068",
+    "materialName": "FRONT L/S PIN  TATA BUS C/R",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1664",
+    "materialName": "CENTER BOLT 6\" X 17 NO BOLERO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1673",
+    "materialName": "CENTER BOLT 4\"X 17NO BOLERO",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0112",
+    "materialName": "FLAT WASHER 19MM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30GNLGC0006",
+    "materialName": "JUBILEE CLAMP 3\"",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10UCIBU0001",
+    "materialName": "REAR BUSH XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2220",
+    "materialName": "N/A KING PIN 207DI XENON",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0045",
+    "materialName": "BREAK SHOES",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0012",
+    "materialName": "WHEEL CYLINDER   0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRLB0001",
+    "materialName": "BREAK OIL  500ML",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2957",
+    "materialName": "RTB10590TR RTB10590TR SRMT KIN PIN KIT S",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0972",
+    "materialName": "TIE ROD END",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1786",
+    "materialName": "506946900101 DRAG LINK ASSY  TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESE0015",
+    "materialName": "ROTATIONAL  SPEED SENSOR A0011533120 XE",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10HYIVL0024",
+    "materialName": "DIRECTIONAL CONTROL VALVE",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECSL0035",
+    "materialName": "A810095, ZX220 CENTRE JOINT O RING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECSL0036",
+    "materialName": "4176479, ZX220 CENTRE JOINT O RING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECOS0019",
+    "materialName": "4176480, ZX220 CENTRE JOINT OIL SEAL",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECSL0043",
+    "materialName": "4195898, ZX400 DUST SEAL CENTRE JOINT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECSL0044",
+    "materialName": "2966689, ZX400 O RING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECSL0045",
+    "materialName": "A810120, ZX400 O RING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10HYISL0251",
+    "materialName": "4113187 Mrv back up ZX650",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO3028",
+    "materialName": "Ball Z972658 EX200",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECAY0066",
+    "materialName": "4176429, ZX400 RING CENTRE JOINT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGPU0055",
+    "materialName": "113650-1333 WATER PUMP  ZX400 MTH",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO0560",
+    "materialName": "WIPER-MOTOR YA00010380",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBMO0008",
+    "materialName": "4660775, ZX650 WIPER SYSTEM",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBWI0010",
+    "materialName": "4650572, ZX220 WIPER BLADE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TGBTG0404",
+    "materialName": "Z991349-RING RETAINING",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECCB0056",
+    "materialName": "4724284 CABLE CONTROL ZX 370",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECCY0025",
+    "materialName": "29066296 slave cylinder",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "30GNLSE0004",
+    "materialName": "ANTILT 0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIAY0204",
+    "materialName": "KCV370ZX-G CONTROL VALVE REPAIR KIT R370",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0684",
+    "materialName": "0445111083-BOLERO INJECTOR",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECAY0082",
+    "materialName": "KCJ220ZX, ZX220/ZX400 C J SEAL KIT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10TYRNY0042",
+    "materialName": "TYRE 10.00X20 REAR *",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10TYRRD0006",
+    "materialName": "1000-20 TUBE",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10TYRNY0024",
+    "materialName": "1000-20 FLAP",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO2999",
+    "materialName": "885433013718 KING PIN KIT MHV 3718/2518",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0088",
+    "materialName": "284633800138 TIE ROAD END ASSY (RH)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0089",
+    "materialName": "284633800137 TIE ROD ASSY (LH)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBR0245",
+    "materialName": "284633403108 TAPER ROLLER BEARING BS 6 1",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBR0246",
+    "materialName": "284633403107 TAPER ROLLER BEARING BS 6 1",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3129",
+    "materialName": "272425603102-NEEDLE ROLLER BRG.-(HOUSIN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3140",
+    "materialName": "501147990101-KIT-FUEL TANK",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0021",
+    "materialName": "MASTER CYLINDER 955700002600 ACE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECPU0033",
+    "materialName": "PTO PUMP 236903",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10BATAB0004",
+    "materialName": "BATTERY 130A 12V MHD 1300",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10CNBGL0008",
+    "materialName": "QTR GLASS RUBBER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3146",
+    "materialName": "CLUMP BOLT (4 sutta long)",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3132",
+    "materialName": "212143065-0200 HANGER BOLT & NUT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30TNTGC0029",
+    "materialName": "JACK ROD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3147",
+    "materialName": "REAR U BOLT '19 475×70×20",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECPU0044",
+    "materialName": "PTO PUMP ASSYM B9H0080157CC",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "30GNLGC0064",
+    "materialName": "WD-40 500 ML",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10FSTBT0339",
+    "materialName": "TB01624/9 ; ZX400 BOLT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10FSTNT0039",
+    "materialName": "TB01624/10 ; ZX400 NUT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO1938",
+    "materialName": "288032403225 CENTRE BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3141",
+    "materialName": "CLUMP BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0044",
+    "materialName": "DRUM WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRVL0020",
+    "materialName": "M4529003 HAND BRAKE VALVE Tipper Ashok L",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10AUTSP0002",
+    "materialName": "9700516440, TATA LPK 2518 CLUTCH SERVO",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO2108",
+    "materialName": "284646900102 DRAGLINK",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0161",
+    "materialName": "M12X50, MS BOLT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0114",
+    "materialName": "M12 ,  NYLOCK NUT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBU0073",
+    "materialName": "BOOM FOOT BUSH ZX470 110X125X120",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ECEAS0384",
+    "materialName": "ASSLY ROTOR & SHAFT 7032-5 NA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEAS0385",
+    "materialName": "ASSLY IDLER GEAR NA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECEEA0247",
+    "materialName": "ROTOR HEAD AND IDLER GEAR PIN ASSLY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSO0001",
+    "materialName": "885442061618 REAR BRAKE LINING KIT(OS2)4",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10DRISL0011",
+    "materialName": "284633407801, HUB SEAL 6.5T PII BS3/4 TA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECAP0008",
+    "materialName": "TD10736, ZX400 BUCKET ARM BUSH(BCKT SIDE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPI0031",
+    "materialName": "TD14006, ZX400 PIN",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10CNBCC0327",
+    "materialName": "A4004310506 HAND BRAKE B/BENZ 2523C",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10SBRSB0205",
+    "materialName": "PD601045 BRAKE LINING SET STD 410 X220 A",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3161",
+    "materialName": "PD601020-SOCKET ASSY LH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3162",
+    "materialName": "PD601019-SOCKET ASSY RH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0152",
+    "materialName": "FA601600 REAR HUB BEARING OUTER L/L 2518",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3159",
+    "materialName": "FJ607400- GASKET 10TG(12 HOLES)",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRSB0186",
+    "materialName": "F8T02022 REAR BRAKE DRUM TIPPER ASHOK LE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRMO0137",
+    "materialName": "FZ605500-SPRING BRAKE CHAMBER TYPE 27/24",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRMO0138",
+    "materialName": "FZ605400-SPRING BRAKE CHAMBER TYPE 27/24",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3160",
+    "materialName": "XDA00500-HOSE BREATHER FOR REAR AXLE",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRMO0139",
+    "materialName": "F8505600-BRAKE CHAMBER TYPE 24 LH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10SBRMO0140",
+    "materialName": "F8503200-BRAKE CHAMBER TYPE 24 RH",
+    "company": "Ashok Leyland"
+  },
+  {
+    "materialCode": "10MECMO3183",
+    "materialName": "A4002680289-BOLT JOINT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3184",
+    "materialName": "A4002600189-LINK BOLT JOINT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3178",
+    "materialName": "A4004600605 LU DRAG LINK",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3175",
+    "materialName": "A4001840402 OIL FILTER HOUSING / GASKET",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3176",
+    "materialName": "A4001840261 SEALING RING / O RING",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3177",
+    "materialName": "A4001880180 GASKET",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3179",
+    "materialName": "A4004660204 OIL FILTER ELEMENT",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3180",
+    "materialName": "A4004662981 LU HIGH-PRESSURE HOSE",
+    "company": "BharatBenz"
+  },
+  {
+    "materialCode": "10MECMO3198",
+    "materialName": "350024121-FRONT BRAKE CHAMBER Crane ACE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO3196",
+    "materialName": "29066419-MASTER CYLINDER ASSY Crane Esco",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10TGBTG0189",
+    "materialName": "271526204605 SYNCHRO RING(1/5,2/6) SIGNA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0320",
+    "materialName": "271526204604 ENGAGING RING REVERSE 38T/5",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0192",
+    "materialName": "271526204606 SYNCHRO RING (3/4) SIGNA 28",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0146",
+    "materialName": "271526204613 / SYNCHRONISING CONE (C/1/2",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0191",
+    "materialName": "271526204635 SHIFTER SLEEVE (2/6) SIGNA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBBR0015",
+    "materialName": "271526253103 BEARING TOP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0030",
+    "materialName": "885426012518, SYNCHRO DOG KIT TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBGA0001",
+    "materialName": "885426014021 PACKING KIT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3185",
+    "materialName": "2715 2620 4623 Shifter Sleeve",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3188",
+    "materialName": "2715 2620 8613 Spacer",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3189",
+    "materialName": "2715 2651 7915 Shifter Shaft",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3190",
+    "materialName": "2715 2651 7901 Shifter Shaft",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3191",
+    "materialName": "2715 2651 7902 Shifter Shaft",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3192",
+    "materialName": "271526907101-OIL PUMP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3193",
+    "materialName": "ball joint kit 1150 & 750",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3194",
+    "materialName": "SHIM KIT 1150 & 750",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO3187",
+    "materialName": "8854 2602 2518 Circlip Kit",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0464",
+    "materialName": "KINGPIN 7603AAC00080N MH COSMO BUS 36S",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO0465",
+    "materialName": "COTTER PINnd - 0401DAA01890N MH COSMO BU",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10SBRSB0080",
+    "materialName": "1101AAA02020N TIE ROD ASSEMBLY",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10AUTMO0017",
+    "materialName": "1103AAA01311N, M&M TOURISTER DRAGLINK AS",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO3024",
+    "materialName": "BOLT-HEX HEA (8T9399) CAT-2012184 2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10HYISL0072",
+    "materialName": "SEALING KIT STRG CYL  507-8266 HM 2021D",
+    "company": "Hindustan"
+  },
+  {
+    "materialCode": "10ECEAS0039",
+    "materialName": "26223103 , REGULATOR ASSY , LUCAS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECVL0121",
+    "materialName": "508143700136 DUAL TREADLE VALVE BS6 SIGN",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10BATAB0004",
+    "materialName": "BATTERY 130A 12V MHD 1300",
+    "company": "Manitou"
+  },
+  {
+    "materialCode": "10GNLGC0008",
+    "materialName": "THREE BOND 85 GM",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTWH0023",
+    "materialName": "HEAD PLATE WASHER",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0064",
+    "materialName": "HT HEX BOLT M6X25",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10FSTBT0068",
+    "materialName": "HT HEX NUT M8",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBR0029",
+    "materialName": "AIR COMP BEARING 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGRI0018",
+    "materialName": "PISTON RING COMPRESSOR TATA 497",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGVL0023",
+    "materialName": "HEAD VALVE 60 DEG TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGOS0010",
+    "materialName": "TIMING OIL SEAL TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESW0052",
+    "materialName": "OIL PRESSURE SWITCH 4467564",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0015",
+    "materialName": "PISTON COMPRESSOR 0",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO0865",
+    "materialName": "BLOCK ASSY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGOS0008",
+    "materialName": "HEAD OIL SEAL TATA 497TC",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0159",
+    "materialName": "KONIA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0469",
+    "materialName": "268081100136 BATTA FIBER TATA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0420",
+    "materialName": "FRONT BONNET JALI  HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0117",
+    "materialName": "FENDER FRONT SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0134",
+    "materialName": "FOOT REST ASSY LH HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0135",
+    "materialName": "FOOT REST ASSY RH HYVA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0403",
+    "materialName": "275160105601 GRAB HANDLE (FRONT FACE) LP",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0119",
+    "materialName": "FENDER REAR SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0118",
+    "materialName": "FENDER MIDDLE SIGNA 2187",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0175",
+    "materialName": "PALLA PLASTIC SIGNA LH",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGBR0018",
+    "materialName": "CON ROD BEARING E3",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGBU0018",
+    "materialName": "CAM BUSH STD 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0135",
+    "materialName": "HEAD TIKKI",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGVL0027",
+    "materialName": "HEAD VALVE STD 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGVL0028",
+    "materialName": "HEAD VALVE LOCK 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0440",
+    "materialName": "VALVE SEAL SET  CUMMINS",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGGA0061",
+    "materialName": "UPPER GASKET KIT 4BT",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGPU0042",
+    "materialName": "CW26178 WATER PUMP TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECPU0036",
+    "materialName": "TE42320 PUMP LUBRICATING OIL  TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGMO0059",
+    "materialName": "CSDEG323 BELT TENSIONER TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0682",
+    "materialName": "253405167901-PUSH ROD INLET AND EXHAUST",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0287",
+    "materialName": "253405139902 PUSH GUIDE",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRMO0062",
+    "materialName": "CAM LOCK TATA 1616",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGES0083",
+    "materialName": "FLYWHEEL RING 127T",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10MECMO2190",
+    "materialName": "CSDEG71 EXHAUST MANIFOLD GASKET TL340",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10ENGGA0070",
+    "materialName": "TURBO COPPER PACKING SET OF 2",
+    "company": "Tata Hitachi"
+  },
+  {
+    "materialCode": "10SBRSB0246",
+    "materialName": "885442070909-BRAKE LINING-STD-4PCS W/O R",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYISL0419",
+    "materialName": "282133407701-SEALING RING Diesel Tanker",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0247",
+    "materialName": "885442160709 BRAKE LINING-STD-4PCS W/O R",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10HYIOS0069",
+    "materialName": "250526207809 OIL SEAL(REAR)(58X75X11) BS",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECSL0195",
+    "materialName": "266135607707 REAR OUTER OIL SEAL",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0145",
+    "materialName": "275242100161 BRAKE ASSY -BRAKE SHOE W/LI",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRMO0109",
+    "materialName": "257342108703 SPRING BRAKE SHOE RETURN  S",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ECESE0109",
+    "materialName": "HOOTER;  OVERLOAD ALARMING SYSTEM FX230",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO3223",
+    "materialName": "CHARCOAL MAT",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10ECELA0145",
+    "materialName": "LUMAX-5186-02-00 HEAD LIGHT -BUS MAHINDR",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO3224",
+    "materialName": "7603AAC00080N-KINGPIN REPAIRABLE KIT 32",
+    "company": "Mahindra"
+  },
+  {
+    "materialCode": "10MECMO1655",
+    "materialName": "288533203101 KING PIN THRUST BEARING SIG",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECFB0066",
+    "materialName": "11005218, LIEBHERR RIBBED BELT 8PK1755",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECBE0038",
+    "materialName": "8PK1585, BELT",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10CNBCC0341",
+    "materialName": "FRONT PALLA SET OF 3",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO1514",
+    "materialName": "101521454600 WEARPAD X250X87X30  FX230",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO1725",
+    "materialName": "101122401300 WEARPAD 100X50X10",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO1513",
+    "materialName": "101022401500 WEAR PAD  FX230",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "30GNLGC0111",
+    "materialName": "TOP WEARPAD 101023403000",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO2637",
+    "materialName": "101022401400 WEAR PAD CRANE ACE FX230",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO2633",
+    "materialName": "101122401200 WEAR PAD CRANE ACE FX230",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO2650",
+    "materialName": "101223200500 ROLLER EXTENSION JACK CRANE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO2649",
+    "materialName": "101223200700 BUSH ROLLER EXTENSION CRANE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECBR0027",
+    "materialName": "BALL BEARING-6013 933100001200",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10MECMO2629",
+    "materialName": "930402502000 EXTERNAL CIRCLIP CRANE ACE",
+    "company": "ACE"
+  },
+  {
+    "materialCode": "10CNBCC0041",
+    "materialName": "FRONT GLASS RUBBER  TATA LPT 710",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "30GNLGC0201",
+    "materialName": "WINDSHIELD",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2466",
+    "materialName": "COLLECTOR RING PACK TATA HY",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10ENGES0583",
+    "materialName": "FLY WHEEL",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBMO0027",
+    "materialName": "RELEASE BEARING",
+    "company": "Eicher"
+  },
+  {
+    "materialCode": "10MECMO2264",
+    "materialName": "LOCKING WIRE SIGNA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10SBRSB0194",
+    "materialName": "BRAKE SHOE ASSY",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10HOSHS0155",
+    "materialName": "COMPRESSOR TO DDU AIR HOSE",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10MECMO2467",
+    "materialName": "CLUTCH RELEASE BEARING BS6",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0143",
+    "materialName": "271526254601 / SYNCHRO RING ( DRIVESHAFT",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0148",
+    "materialName": "271526253103 / TAPER ROLLER BEARING",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0193",
+    "materialName": "271526204635 SHIFTER SLEEVE (3/7) SIGNA",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0146",
+    "materialName": "271526204613 / SYNCHRONISING CONE (C/1/2",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0190",
+    "materialName": "271526204621 SHIFTER SLEEVE SIGNA 2823",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0194",
+    "materialName": "271526208603 SPACER (12.2 THICK) SIGNA 2",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBBR0014",
+    "materialName": "265135603101 BEARING",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0053",
+    "materialName": "271526207701 SEALING RING",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0199",
+    "materialName": "269126208701 COMPRESSION SPRING SIGNA 28",
+    "company": "Tata"
+  },
+  {
+    "materialCode": "10TGBTG0198",
+    "materialName": "269126206702 RETENSION PIN SIGNA 2823",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10MECGA0060",
+    "materialName": "269126105303 GASKET IMPERIO",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10TGBTG0269",
+    "materialName": "271526205412 3RD/7TH SPEED GEAR (MAIN SH",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "30MECMO0025",
+    "materialName": "KIT CIRCLIP  PD600620",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0122",
+    "materialName": "SHIM KIT T709",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10CNBCC0261",
+    "materialName": "268082400116 WIPER ACC KIT",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0001",
+    "materialName": "885426012518, SYNCHRO DOG KIT TATA",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10MECCI0001",
+    "materialName": "278605999928, GASKET VALVE COVER",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10HYIOS0021",
+    "materialName": "581035107702 OIL SEAL 68X88X13",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10TGBTG0166",
+    "materialName": "580525200108 / 430 DIA CLUTCH PLATE",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10ENGES0409",
+    "materialName": "4929827 FLYWHEEL RING 149 TEETH 2825 tat",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10MECMO1269",
+    "materialName": "573714110197, TATA 2518 DEF DOZING UNIT",
+    "company": "TATA"
+  },
+  {
+    "materialCode": "10FLTFF0401",
+    "materialName": "573714990142 FILTER",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10SBRSB0021",
+    "materialName": "885442071618 , BRAKE SHOE SET OF 4",
+    "company": "OTHER"
+  },
+  {
+    "materialCode": "10MECMO2406",
+    "materialName": "U BOLT REAR 20''",
+    "company": "OTHER"
+  }
+]
