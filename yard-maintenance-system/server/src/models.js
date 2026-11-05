@@ -15,6 +15,15 @@ const EquipmentSchema = new Schema(
     equipmentType: { type: String, required: true, trim: true },
     make: { type: String, trim: true, default: "" },
     model: { type: String, trim: true, default: "" },
+    gatepassNumber: {
+      type: String,
+      trim: true,
+      default: "",
+    },
+    inDate: {
+      type: Date,
+      default: null,
+    },
     remarks: { type: String, trim: true, default: "" },
   },
   { timestamps: true }

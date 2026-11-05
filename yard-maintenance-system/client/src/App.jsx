@@ -32,11 +32,11 @@ const NAV = [
   ["Equipment Master", Truck],
   ["Inward Entry", DoorOpen],
   ["Job Cards", ClipboardList],
+  ["Detail Search", Search],
   ["Data Management", Trash2],
   ["Attendance", CalendarDays],
   ["Parts Catalogue", Boxes],
   ["Reports & MIS", FileSpreadsheet]
-
 ];
 
 const TYPES = [
@@ -122,6 +122,8 @@ const blankEquipment = {
   equipmentType: "Hydra",
   make: "",
   model: "",
+  gatepassNumber: "",
+  inDate: "",
   remarks: ""
 };
 
@@ -339,6 +341,7 @@ export default function App() {
   const [jobs, setJobs] = useState([]);
   const [equipmentSearch, setEquipmentSearch] = useState("");
   const [jobSearch, setJobSearch] = useState("");
+  const [detailSearch, setDetailSearch] = useState("");
   const [deleteSearch, setDeleteSearch] = useState("");
   const [deletingKey, setDeletingKey] = useState("");
   const [report, setReport] = useState({ kind: "inside", from: "", to: "", type: "all", status: "all", q: "" });
@@ -357,6 +360,8 @@ export default function App() {
   const [catalogCompany, setCatalogCompany] = useState("all");
   const [catalogQuery, setCatalogQuery] = useState("");
   const [catalogLoading, setCatalogLoading] = useState(false);
+  const refreshIdRef = useRef(0);
+  const toastTimeoutRef = useRef(null);
   const [showAddPart, setShowAddPart] = useState(false);
   const [newPart, setNewPart] = useState({ materialCode: "", materialName: "", company: "" });
   const [savingPart, setSavingPart] = useState(false);
@@ -452,10 +457,16 @@ export default function App() {
     }
   }
 
-  const flash = (type, text) => {
+  const flash = useCallback((type, text) => {
+    if (toastTimeoutRef.current) {
+      window.clearTimeout(toastTimeoutRef.current);
+    }
     setNotice({ type, text });
-    window.setTimeout(() => setNotice({ type: "", text: "" }), 4500);
-  };
+    toastTimeoutRef.current = window.setTimeout(() => {
+      setNotice({ type: "", text: "" });
+      toastTimeoutRef.current = null;
+    }, 4500);
+  }, []);
 
   const loadSummary = useCallback(async () => {
     const r = await api.get("/api/reports/summary");
@@ -479,24 +490,42 @@ export default function App() {
 
   const refresh = useCallback(async () => {
     if (!token) return;
+    const requestId = ++refreshIdRef.current;
     setLoading(true);
     try {
       await Promise.all([loadSummary(), loadEquipment(), loadInwards(), loadJobs()]);
+      if (requestId !== refreshIdRef.current) return;
     } catch (e) {
+      if (requestId !== refreshIdRef.current) return;
       flash("error", errMsg(e));
     } finally {
-      setLoading(false);
+      if (requestId === refreshIdRef.current) {
+        setLoading(false);
+      }
     }
-  }, [token, loadSummary, loadEquipment, loadInwards, loadJobs]);
+  }, [token, flash, loadSummary, loadEquipment, loadInwards, loadJobs]);
 
   useEffect(() => {
     refresh();
   }, [refresh]);
 
   useEffect(() => {
+    return () => {
+      refreshIdRef.current += 1;
+      if (toastTimeoutRef.current) {
+        clearTimeout(toastTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
     const handler = () => {
+      refreshIdRef.current += 1;
       setToken(null);
       setNotice({ type: "error", text: "Session expired. Please sign in again." });
+      if (toastTimeoutRef.current) {
+        clearTimeout(toastTimeoutRef.current);
+      }
     };
     window.addEventListener("yard-session-expired", handler);
     return () => window.removeEventListener("yard-session-expired", handler);
@@ -532,6 +561,13 @@ export default function App() {
       job.mrNumber,
       job.stpoNumber,
       job.mechanicNames,
+      job.exitGatepassNumber,
+      job.problems,
+      job.actionTaken,
+      job.partsRequired,
+      job.partsChanged,
+      job.completedByMechanic,
+      job.finalRemarks,
       ...partsTokens
     ].some((v) => String(v || "").toLowerCase().includes(query));
   };
@@ -540,6 +576,45 @@ export default function App() {
     const q = jobSearch.toLowerCase().trim();
     return jobs.filter((x) => matchesJobQuery(x, q));
   }, [jobs, jobSearch]);
+
+  const detailQuery = detailSearch.trim().toLowerCase();
+
+  const detailEquipmentResults = useMemo(() => {
+    if (!detailQuery) return [];
+
+    return equipment.filter((item) =>
+      [
+        item.technicalObjectNumber,
+        item.vehicleNumber,
+        item.equipmentName,
+        item.equipmentType,
+        item.make,
+        item.model,
+        item.remarks
+      ].some((value) =>
+        String(value || "").toLowerCase().includes(detailQuery)
+      )
+    );
+  }, [equipment, detailQuery]);
+
+  const detailJobResults = useMemo(() => {
+    if (!detailQuery) return [];
+
+    return jobs.filter((job) => matchesJobQuery(job, detailQuery) ||
+      [
+        job.exitGatepassNumber,
+        job.problems,
+        job.actionTaken,
+        job.partsRequired,
+        job.partsChanged,
+        job.completedByMechanic,
+        job.finalRemarks,
+        job.inward?.gatepassNumber
+      ].some((value) =>
+        String(value || "").toLowerCase().includes(detailQuery)
+      )
+    );
+  }, [jobs, detailQuery]);
 
   const reportRows = useMemo(() => {
     return jobs.filter((j) => {
@@ -573,10 +648,14 @@ export default function App() {
   }
 
   function logout() {
+    refreshIdRef.current += 1;
     localStorage.removeItem("yard_token");
     localStorage.removeItem("yard_admin");
     setToken(null);
     setPage("Dashboard");
+    if (toastTimeoutRef.current) {
+      clearTimeout(toastTimeoutRef.current);
+    }
   }
 
   async function saveEquipmentEdit(e) {
@@ -913,6 +992,83 @@ export default function App() {
                     </div>
                   )}
                   <div className="catalog-footnote">Showing {Math.min(filteredCatalogParts.length, 500).toLocaleString()} of {filteredCatalogParts.length.toLocaleString()} matching records.</div>
+                </section>
+              )}
+
+              {page === "Detail Search" && (
+                <section className="panel">
+                  <PanelHeader
+                    title="Detail Search"
+                    subtitle="Search, view and update equipment and maintenance records"
+                  />
+
+                  <div className="toolbar">
+                    <div className="searchbox" style={{ flex: 1 }}>
+                      <Search size={18} />
+
+                      <input
+                        placeholder="Enter vehicle number, technical object, job card, MO, MR, PR, PO, material code..."
+                        value={detailSearch}
+                        onChange={(e) => setDetailSearch(e.target.value)}
+                      />
+
+                      {detailSearch && (
+                        <button
+                          type="button"
+                          className="icon-btn"
+                          onClick={() => setDetailSearch("")}
+                          title="Clear search"
+                          aria-label="Clear search"
+                        >
+                          <X size={16} />
+                        </button>
+                      )}
+                    </div>
+                    <span className="result-count">
+                      {detailQuery
+                        ? `${detailEquipmentResults.length} equipment · ${detailJobResults.length} job cards`
+                        : "Type to search"}
+                    </span>
+                  </div>
+
+                  {!detailQuery ? (
+                    <EmptyState
+                      title="Start typing to search"
+                      body="Search across equipment, job cards, gatepasses, MO / MR / STPO, PR / PO, material codes, problems and remarks."
+                    />
+                  ) : (
+                    <>
+                      <div className="table-heading">
+                        <b>Equipment</b>
+                        <span>{detailEquipmentResults.length} matching</span>
+                      </div>
+                      <EquipmentTable
+                        rows={detailEquipmentResults}
+                        jobs={jobs}
+                        onViewHistory={setHistoryEquipment}
+                        onSelectEquipment={(item) => {
+                          setSelectedEquipment(item);
+                          setEquipmentEditForm({ ...blankEquipment, ...item });
+                          setEquipmentEditMode(false);
+                        }}
+                        onNewInward={(equipmentId) => {
+                          setInwardForm({ ...blankInward, equipmentId, inDateTime: localDateTime() });
+                          setPage("Inward Entry");
+                        }}
+                      />
+
+                      <div className="table-heading">
+                        <b>Job cards</b>
+                        <span>{detailJobResults.length} matching</span>
+                      </div>
+                      <JobsTable
+                        rows={detailJobResults}
+                        setJobEdit={setJobEdit}
+                        setCompletion={setCompletion}
+                        setExitForm={setExitForm}
+                      />
+                    </>
+                  )}
                 </section>
               )}
 
@@ -1385,13 +1541,43 @@ export default function App() {
               <Field label="Equipment name"><input value={equipmentEditForm.equipmentName || ""} onChange={(e) => setEquipmentEditForm({ ...equipmentEditForm, equipmentName: e.target.value })} /></Field>
               <Field label="Make"><select value={equipmentEditForm.make || ""} onChange={(e) => setEquipmentEditForm({ ...equipmentEditForm, make: e.target.value })}><option value="">Select make</option>{MAKES.map((make) => <option key={make}>{make}</option>)}</select></Field>
               <Field label="Model"><input value={equipmentEditForm.model || ""} onChange={(e) => setEquipmentEditForm({ ...equipmentEditForm, model: e.target.value })} /></Field>
+              <Field label="Gatepass number">
+                <input
+                  value={equipmentEditForm.gatepassNumber || ""}
+                  onChange={(e) =>
+                    setEquipmentEditForm({
+                      ...equipmentEditForm,
+                      gatepassNumber: e.target.value
+                    })
+                  }
+                  placeholder="Enter gatepass number"
+                />
+              </Field>
+              <Field label="In date">
+                <input
+                  type="datetime-local"
+                  value={
+                    equipmentEditForm.inDate
+                      ? new Date(equipmentEditForm.inDate)
+                          .toISOString()
+                          .slice(0, 16)
+                      : ""
+                  }
+                  onChange={(e) =>
+                    setEquipmentEditForm({
+                      ...equipmentEditForm,
+                      inDate: e.target.value
+                    })
+                  }
+                />
+              </Field>
               <Field label="Remarks" wide><textarea rows="3" value={equipmentEditForm.remarks || ""} onChange={(e) => setEquipmentEditForm({ ...equipmentEditForm, remarks: e.target.value })} /></Field>
               <div className="form-footer"><button type="button" className="btn secondary" onClick={() => setEquipmentEditMode(false)}>Cancel</button><button type="submit" className="btn primary" disabled={equipmentEditBusy}>{equipmentEditBusy ? "Saving…" : "Save changes"}</button></div>
             </form>
           ) : (
             <div className="equipment-details">
               <div className="details-grid">
-                {[ ["Technical object number", selectedEquipment.technicalObjectNumber], ["Vehicle / machine number", selectedEquipment.vehicleNumber], ["Equipment name", selectedEquipment.equipmentName], ["Equipment type", selectedEquipment.equipmentType], ["Make", selectedEquipment.make], ["Model", selectedEquipment.model], ["Gatepass number", selectedEquipment.gatepassNumber], ["In date", selectedEquipment.inDate], ["Remarks", selectedEquipment.remarks], ["Created", selectedEquipment.createdAt ? new Date(selectedEquipment.createdAt).toLocaleString() : ""] ].map(([label, value]) => <div className="detail-item" key={label}><span>{label}</span><b>{value || "—"}</b></div>)}
+                {[ ["Technical object number", selectedEquipment.technicalObjectNumber], ["Vehicle / machine number", selectedEquipment.vehicleNumber], ["Equipment name", selectedEquipment.equipmentName], ["Equipment type", selectedEquipment.equipmentType], ["Make", selectedEquipment.make], ["Model", selectedEquipment.model], ["Gatepass number", selectedEquipment.gatepassNumber], ["In date", selectedEquipment.inDate ? dateText(selectedEquipment.inDate) : ""], ["Remarks", selectedEquipment.remarks], ["Created", selectedEquipment.createdAt ? new Date(selectedEquipment.createdAt).toLocaleString() : ""] ].map(([label, value]) => <div className="detail-item" key={label}><span>{label}</span><b>{value || "—"}</b></div>)}
               </div>
               <div className="form-footer"><button className="btn primary" onClick={() => { setEquipmentEditForm({ ...blankEquipment, ...selectedEquipment }); setEquipmentEditMode(true); }}>Edit details</button></div>
             </div>
