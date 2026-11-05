@@ -42,6 +42,8 @@ const NAV = [
 const TYPES = [
   "Aerial Work Platform",
   "Ambulance",
+  "2-Wheel Vehicle",
+  "3-Wheel Vehicle",
   "Backhoe Loader",
   "Bus",
   "Camper",
