@@ -2509,3 +2509,29 @@ td b {
     align-items: flex-start;
   }
 }
+.login-button {
+  width: 100%;
+  padding: 13px 16px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #062b5b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.login-button:hover:not(:disabled) {
+  background-color: #041f42;
+}
+
+.login-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.login-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}

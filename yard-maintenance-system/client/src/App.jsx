@@ -13,6 +13,7 @@ import {
   FileSpreadsheet,
   History,
   LayoutDashboard,
+  Loader2,
   LogOut,
   Menu,
   Plus,
@@ -159,7 +160,6 @@ function errMsg(e) {
   return e.response?.data?.message || e.message || "Something went wrong.";
 }
 
-
 function parseBulkParts(text) {
   return String(text || "")
     .split(/\r?\n/)
@@ -172,7 +172,6 @@ function parseBulkParts(text) {
       else if (line.includes(",")) columns = line.split(",");
       else columns = line.split(/\s{2,}/);
 
-      // Also accept "MATERIALCODE PART NAME" separated by one or more spaces.
       if (columns.length < 2) {
         const match = line.match(/^(\S+)\s+(.+)$/);
         if (match) columns = [match[1], match[2]];
@@ -331,6 +330,7 @@ export default function App() {
   const [admin, setAdmin] = useState(localStorage.getItem("yard_admin") || "admin");
   const [login, setLogin] = useState({ username: "admin", password: "" });
   const [loginError, setLoginError] = useState("");
+  const [loginLoading, setLoginLoading] = useState(false);
   const [page, setPage] = useState("Dashboard");
   const [mobileNav, setMobileNav] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -632,9 +632,13 @@ export default function App() {
     });
   }, [jobs, report]);
 
-  async function doLogin(e) {
+  async function handleLogin(e) {
     e.preventDefault();
+    if (loginLoading) return;
+
+    setLoginLoading(true);
     setLoginError("");
+
     try {
       const r = await api.post("/api/auth/login", login);
       localStorage.setItem("yard_token", r.data.token);
@@ -644,6 +648,8 @@ export default function App() {
       flash("success", "Welcome back.");
     } catch (e) {
       setLoginError(errMsg(e));
+    } finally {
+      setLoginLoading(false);
     }
   }
 
@@ -834,7 +840,7 @@ export default function App() {
             </div>
           </div>
           <div className="login-panel">
-            <form className="login-form" onSubmit={doLogin}>
+            <form className="login-form" onSubmit={handleLogin}>
               <div className="mobile-brand"><Wrench /> YardCare</div>
               <span className="eyebrow">ADMINISTRATOR ACCESS</span>
               <h2>Welcome back</h2>
@@ -844,7 +850,20 @@ export default function App() {
               <label>Password</label>
               <input type="password" autoComplete="current-password" value={login.password} onChange={(e) => setLogin({ ...login, password: e.target.value })} required />
               {loginError && <div className="error-box">{loginError}</div>}
-              <button className="btn primary full" type="submit">Sign in <ChevronDown className="rotate-neg" size={17} /></button>
+              <button
+                type="submit"
+                disabled={loginLoading}
+                className="login-button"
+              >
+                {loginLoading ? (
+                  <>
+                    <Loader2 size={18} className="animate-spin" />
+                    Verifying credentials...
+                  </>
+                ) : (
+                  "Login"
+                )}
+              </button>
               <div className="login-hint"><AlertTriangle size={15} /> Use the admin credentials configured in <code>server/.env</code>.</div>
             </form>
           </div>
