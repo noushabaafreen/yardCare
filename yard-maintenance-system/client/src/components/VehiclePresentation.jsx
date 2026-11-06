@@ -76,6 +76,38 @@ export default function VehiclePresentation({
     return isNaN(d.getTime()) ? "—" : d.toLocaleDateString();
   };
 
+  // Convert the existing free-text partsChanged field into readable rows.
+  // Each non-empty line is kept intact so part descriptions are not split accidentally.
+  const getPartsUsed = (vehicleJobs) =>
+    vehicleJobs.flatMap((job) => {
+      const value = String(job.partsChanged || "").trim();
+      if (!value) return [];
+      return value
+        .split(/\r?\n/)
+        .map((line) => line.replace(/^[-•*\d.)\s]+/, "").trim())
+        .filter(Boolean)
+        .map((partName) => ({
+          jobCardNumber: job.jobCardNumber || "—",
+          partName,
+        }));
+    });
+
+  // Show parts recorded in procurement lots as plain parts details only.
+  // PO/PR identifiers and procurement references are intentionally excluded.
+  const getPartsDetails = (vehicleJobs) =>
+    vehicleJobs.flatMap((job) =>
+      (Array.isArray(job.partsLots) ? job.partsLots : []).flatMap((lot) =>
+        (Array.isArray(lot.parts) ? lot.parts : [])
+          .filter((part) => !part.deletionIndicator)
+          .map((part) => ({
+            jobCardNumber: job.jobCardNumber || "—",
+            materialCode: part.materialCode || "—",
+            partName: part.partName || part.shortText || "Unnamed part",
+            quantity: Number(part.quantityOrdered || part.quantityRequested || 0),
+          }))
+      )
+    );
+
   async function downloadPresentation() {
     if (!filteredVehicles.length || isExporting) return;
 
@@ -365,6 +397,105 @@ export default function VehiclePresentation({
           color: grey,
           align: "right",
         });
+
+        // Parts are placed on separate, consistently-sized detail slides so
+        // the existing vehicle overview slide never becomes cramped or distorted.
+        const partsUsed = getPartsUsed(vehicleJobs);
+        const partsDetails = getPartsDetails(vehicleJobs);
+        const pageSize = 8;
+        const partsPageCount = Math.max(
+          1,
+          Math.ceil(partsUsed.length / pageSize),
+          Math.ceil(partsDetails.length / pageSize)
+        );
+
+        for (let page = 0; page < partsPageCount; page += 1) {
+          const usedRows = partsUsed.slice(page * pageSize, (page + 1) * pageSize);
+          const detailRows = partsDetails.slice(page * pageSize, (page + 1) * pageSize);
+          if (!partsUsed.length && !partsDetails.length) break;
+
+          const partsSlide = pptx.addSlide();
+          partsSlide.background = { color: "FFFFFF" };
+          partsSlide.addShape(pptx.ShapeType.rect, {
+            x: 0, y: 0, w: 13.333, h: 0.22,
+            line: { color: navy }, fill: { color: navy },
+          });
+          partsSlide.addText(
+            `${vehicle.vehicleNumber || vehicle.equipmentName || `Vehicle ${index + 1}`} – Parts Details`,
+            {
+              x: 0.65, y: 0.48, w: 12.0, h: 0.48,
+              fontSize: 23, bold: true, color: navy,
+            }
+          );
+          partsSlide.addText(
+            `Technical Object: ${vehicle.technicalObjectNumber || "—"}   |   Job Cards: ${vehicleJobs.length}`,
+            {
+              x: 0.68, y: 1.02, w: 12.0, h: 0.28,
+              fontSize: 11, color: grey,
+            }
+          );
+
+          // Two balanced columns keep both sections readable without stretching the slide.
+          const leftX = 0.65;
+          const rightX = 6.85;
+          const colW = 5.83;
+          const tableY = 1.72;
+          const titleOpts = { fontSize: 13, bold: true, color: blue, margin: 0.04 };
+          partsSlide.addText("PARTS USED / CHANGED", {
+            x: leftX, y: 1.42, w: colW, h: 0.24, ...titleOpts,
+          });
+          partsSlide.addText("PARTS DETAILS", {
+            x: rightX, y: 1.42, w: colW, h: 0.24, ...titleOpts,
+          });
+
+          const usedTable = [
+            [
+              { text: "Part description", options: { bold: true, fill: "EAF1F8" } },
+              { text: "Job Card", options: { bold: true, fill: "EAF1F8" } },
+            ],
+            ...(usedRows.length
+              ? usedRows.map((part) => [
+                  { text: part.partName },
+                  { text: part.jobCardNumber },
+                ])
+              : [[{ text: "No parts used recorded", options: { color: grey, italic: true }, colSpan: 2 }]]),
+          ];
+          partsSlide.addTable(usedTable, {
+            x: leftX, y: tableY, w: colW,
+            colW: [4.0, 1.83], rowH: 0.48,
+            border: { type: "solid", color: borderSlate, pt: 0.8 },
+            fontSize: 9, color: textDark, margin: 0.06,
+            valign: "mid", autoFit: false,
+          });
+
+          const detailsTable = [
+            [
+              { text: "Part name / Material code", options: { bold: true, fill: "EAF1F8" } },
+              { text: "Quantity", options: { bold: true, fill: "EAF1F8", align: "center" } },
+            ],
+            ...(detailRows.length
+              ? detailRows.map((part) => [
+                  { text: `${part.partName}\n${part.materialCode} · Job Card: ${part.jobCardNumber}` },
+                  { text: String(part.quantity || "—"), options: { align: "center" } },
+                ])
+              : [[{ text: "No additional parts details recorded", options: { color: grey, italic: true }, colSpan: 2 }]]),
+          ];
+          partsSlide.addTable(detailsTable, {
+            x: rightX, y: tableY, w: colW,
+            colW: [4.55, 1.28], rowH: 0.48,
+            border: { type: "solid", color: borderSlate, pt: 0.8 },
+            fontSize: 8, color: textDark, margin: 0.05,
+            valign: "mid", autoFit: false,
+          });
+
+          partsSlide.addText(
+            `Vehicle ${index + 1} of ${filteredVehicles.length}  ·  Parts page ${page + 1} of ${partsPageCount}`,
+            {
+              x: 8.4, y: 7.0, w: 4.2, h: 0.22,
+              fontSize: 9, color: grey, align: "right",
+            }
+          );
+        }
       });
 
       await pptx.writeFile({
