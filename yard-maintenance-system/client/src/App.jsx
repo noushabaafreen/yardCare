@@ -27,6 +27,10 @@ import {
 } from "lucide-react";
 import api from "./api";
 import Attendance from "./components/Attendance/Attendance";
+import VehiclePresentation from "./components/VehiclePresentation";
+import VehicleHistory from "./pages/VehicleHistory";
+import { Presentation  } from "lucide-react";
+//import { ClipboardList  } from "lucide-react";
 
 const NAV = [
   ["Dashboard", LayoutDashboard],
@@ -37,6 +41,8 @@ const NAV = [
   ["Data Management", Trash2],
   ["Attendance", CalendarDays],
   ["Parts Catalogue", Boxes],
+  ["Vehicle History", ClipboardList],
+  ["Vehicle Presentation", Presentation],
   ["Reports & MIS", FileSpreadsheet]
 ];
 
@@ -936,6 +942,10 @@ export default function App() {
 
             <div className="page-content">
               {page === "Attendance" && <Attendance />}
+              {page === "Vehicle History" && <VehicleHistory />}
+              {page === "Vehicle Presentation" && (
+                <VehiclePresentation equipment={equipment} jobs={jobs} />
+                 )}
 
               {page === "Parts Catalogue" && (
                 <section className="panel">
