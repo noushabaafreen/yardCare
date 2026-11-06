@@ -2663,3 +2663,24 @@ td b {
 .sidebar-bottom .icon-btn {
   flex-shrink: 0;
 }
+/* User and permission administration */
+.user-management-grid { display: grid; grid-template-columns: minmax(300px, .9fr) minmax(360px, 1.1fr); gap: 18px; align-items: start; }
+.user-admin-panel { padding: 22px; min-width: 0; }
+.user-create-form { display: grid; gap: 13px; }
+.user-create-form > label, .user-card > label { display: grid; gap: 6px; font-size: 13px; font-weight: 700; }
+.user-create-form input, .user-card input, .permission-row select { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 11px; background: #fff; color: #18283d; }
+.user-create-form h3 { margin: 8px 0 0; font-size: 14px; }
+.permission-list { display: grid; gap: 7px; }
+.permission-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 9px; font-size: 13px; }
+.permission-row select { max-width: 205px; padding: 8px; font-size: 12px; }
+.user-list { display: grid; gap: 12px; }
+.user-card { border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 12px; }
+.user-card-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.user-card-top > div { display: grid; gap: 4px; }
+.user-card-top small { color: var(--muted); font-size: 12px; }
+.status-active, .status-inactive { font-size: 11px; font-weight: 700; border-radius: 20px; padding: 5px 9px; background: #e6f7ef; color: #16834d; }
+.status-inactive { background: #fff0ed; color: #b23c2c; }
+.user-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn.danger { background: #fff0ed; color: #b23c2c; border: 1px solid #ffd6cf; }
+.notice-box { padding: 10px 12px; margin-bottom: 12px; border-radius: 9px; background: #edf4ff; color: #244c82; font-size: 13px; }
+@media (max-width: 900px) { .user-management-grid { grid-template-columns: 1fr; } }

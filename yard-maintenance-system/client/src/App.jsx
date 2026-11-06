@@ -29,6 +29,7 @@ import api from "./api";
 import Attendance from "./components/Attendance/Attendance";
 import VehiclePresentation from "./components/VehiclePresentation";
 import VehicleHistory from "./pages/VehicleHistory";
+import UserManagement from "./pages/UserManagement";
 import { Presentation  } from "lucide-react";
 //import { ClipboardList  } from "lucide-react";
 
@@ -43,7 +44,8 @@ const NAV = [
   ["Parts Catalogue", Boxes],
   ["Vehicle History", ClipboardList],
   ["Vehicle Presentation", Presentation],
-  ["Reports & MIS", FileSpreadsheet]
+  ["Reports & MIS", FileSpreadsheet],
+  ["User Management", Settings2]
 ];
 
 const TYPES = [
@@ -334,6 +336,10 @@ function SearchableEquipmentSelect({ equipment, jobs, selectedId, onSelect }) {
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem("yard_token"));
   const [admin, setAdmin] = useState(localStorage.getItem("yard_admin") || "admin");
+  const [role, setRole] = useState(localStorage.getItem("yard_role") || "superadmin");
+  const [permissions, setPermissions] = useState(() => { try { return JSON.parse(localStorage.getItem("yard_permissions") || "{}"); } catch { return {}; } });
+  const canView = (menu) => role === "superadmin" || Boolean(permissions[menu]);
+  const canEdit = (menu) => role === "superadmin" || permissions[menu] === "edit";
   const [login, setLogin] = useState({ username: "admin", password: "" });
   const [loginError, setLoginError] = useState("");
   const [loginLoading, setLoginLoading] = useState(false);
@@ -499,7 +505,12 @@ export default function App() {
     const requestId = ++refreshIdRef.current;
     setLoading(true);
     try {
-      await Promise.all([loadSummary(), loadEquipment(), loadInwards(), loadJobs()]);
+      const tasks = [];
+      if (canView("Reports & MIS")) tasks.push(loadSummary());
+      if (canView("Equipment Master")) tasks.push(loadEquipment());
+      if (canView("Inward Entry")) tasks.push(loadInwards());
+      if (canView("Job Cards") || canView("Detail Search") || canView("Vehicle History") || canView("Vehicle Presentation")) tasks.push(loadJobs());
+      await Promise.all(tasks);
       if (requestId !== refreshIdRef.current) return;
     } catch (e) {
       if (requestId !== refreshIdRef.current) return;
@@ -509,7 +520,7 @@ export default function App() {
         setLoading(false);
       }
     }
-  }, [token, flash, loadSummary, loadEquipment, loadInwards, loadJobs]);
+  }, [token, flash, loadSummary, loadEquipment, loadInwards, loadJobs, role, permissions]);
 
   useEffect(() => {
     refresh();
@@ -651,6 +662,11 @@ export default function App() {
       localStorage.setItem("yard_admin", r.data.username);
       setToken(r.data.token);
       setAdmin(r.data.username);
+      setRole(r.data.role || "superadmin");
+      setPermissions(r.data.permissions || {});
+      localStorage.setItem("yard_role", r.data.role || "superadmin");
+      localStorage.setItem("yard_permissions", JSON.stringify(r.data.permissions || {}));
+      setPage("Dashboard");
       flash("success", "Welcome back.");
     } catch (e) {
       setLoginError(errMsg(e));
@@ -663,6 +679,10 @@ export default function App() {
     refreshIdRef.current += 1;
     localStorage.removeItem("yard_token");
     localStorage.removeItem("yard_admin");
+    localStorage.removeItem("yard_role");
+    localStorage.removeItem("yard_permissions");
+    setPermissions({});
+    setRole("user");
     setToken(null);
     setPage("Dashboard");
     if (toastTimeoutRef.current) {
@@ -884,7 +904,7 @@ export default function App() {
             </div>
             <div className="nav-caption">WORKSPACE</div>
             <nav>
-              {NAV.map(([label, Icon]) => (
+              {NAV.filter(([label]) => label === "User Management" ? role === "superadmin" : canView(label)).map(([label, Icon]) => (
                 <button
                   key={label}
                   className={`nav-item ${page === label ? "active" : ""}`}
@@ -906,7 +926,7 @@ export default function App() {
               </div>
               <div className="user-row">
                 <div className="avatar">{admin.slice(0, 1).toUpperCase()}</div>
-                <div className="user-meta"><b>{admin}</b><small>Administrator</small></div>
+                <div className="user-meta"><b>{admin}</b><small>{role === "superadmin" ? "Super Admin" : "User"}</small></div>
                 <button title="Sign out" className="icon-btn" onClick={logout}><LogOut size={17} /></button>
               </div>
             </div>
@@ -941,7 +961,9 @@ export default function App() {
             )}
 
             <div className="page-content">
-              {page === "Attendance" && <Attendance />}
+              {page !== "User Management" && !canView(page) && <section className="panel"><h2>Access restricted</h2><p>Your account does not have permission to view this section. Contact the Super Admin.</p></section>}
+              {page === "User Management" && role === "superadmin" && <UserManagement />}
+              {page === "Attendance" && canView("Attendance") && <Attendance />}
               {page === "Vehicle History" && <VehicleHistory />}
               {page === "Vehicle Presentation" && (
                 <VehiclePresentation equipment={equipment} jobs={jobs} />

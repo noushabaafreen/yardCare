@@ -154,3 +154,13 @@ JobSchema.index({ status: 1, inDateTime: -1 });
 export const Equipment = model("Equipment", EquipmentSchema);
 export const Inward = model("Inward", InwardSchema);
 export const Job = model("Job", JobSchema);
+
+const UserSchema = new Schema({
+  username: { type: String, required: true, unique: true, trim: true, lowercase: true },
+  passwordHash: { type: String, required: true },
+  role: { type: String, enum: ["superadmin", "user"], default: "user" },
+  permissions: { type: Schema.Types.Mixed, default: {} },
+  active: { type: Boolean, default: true },
+}, { timestamps: true });
+
+export const User = mongoose.models.User || model("User", UserSchema);
