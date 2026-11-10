@@ -57,6 +57,7 @@ const MAKES = [
   "ACE",
   "Ashok Leyland",
   //"Bajaj",
+  "Sonalika",
   "Hindustan",
   "BharatBenz",
   "Bobcat",
