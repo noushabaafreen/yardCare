@@ -23,6 +23,7 @@ const TYPES = [
   "Aerial Work Platform",
   "Ambulance",
   "Backhoe Loader",
+  "Bus / Coach",
   "Bus",
   "Camper",
   "Compressor",
