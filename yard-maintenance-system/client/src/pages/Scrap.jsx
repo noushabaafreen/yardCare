@@ -56,6 +56,7 @@ const TYPES = [
 
 const MAKES = [
   "ACE",
+  "DULEVO",
   "Ashok Leyland",
   //"Bajaj",
   "Sonalika",
