@@ -4818,5 +4818,10 @@
     "materialCode": "10MECMO2406",
     "materialName": "U BOLT REAR 20''",
     "company": "OTHER"
+  },
+  {
+    "materialCode": "test12345",
+    "materialName": "test12",
+    "company": "ACE"
   }
 ]
