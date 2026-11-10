@@ -21,6 +21,7 @@ const EMPTY = {
 
 const TYPES = [
   "Aerial Work Platform",
+  "Road Sweeper Machine",
   "Ambulance",
   "Backhoe Loader",
   "Bus / Coach",
