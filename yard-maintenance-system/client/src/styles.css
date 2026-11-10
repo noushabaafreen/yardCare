@@ -1276,6 +1276,26 @@ td b {
   grid-template-columns: 1.1fr 0.9fr;
   background: white;
 }
+.session-checking {
+  grid-column: 1 / -1;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 16px;
+  padding: 24px;
+  color: #52647a;
+  text-align: center;
+}
+.session-checking p {
+  margin: 0;
+}
+.session-checking-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
 .login-art {
   background: linear-gradient(145deg, #102a49, #123d68 65%, #1b5687);
   color: white;

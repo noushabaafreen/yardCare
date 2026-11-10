@@ -5,7 +5,7 @@ export function requireAuth(req, res, next) {
   const token = header.startsWith("Bearer ") ? header.slice(7) : "";
   if (!token) return res.status(401).json({ message: "Authentication required." });
   try {
-    req.admin = jwt.verify(token, process.env.JWT_SECRET);
+    req.admin = jwt.verify(token, process.env.JWT_SECRET, { maxAge: "2h" });
     next();
   } catch {
     return res.status(401).json({ message: "Session expired. Please sign in again." });

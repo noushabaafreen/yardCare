@@ -62,6 +62,26 @@ const MENU_PATHS = {
 const PATH_MENUS = Object.fromEntries(
   Object.entries(MENU_PATHS).map(([menu, path]) => [path, menu])
 );
+const SESSION_MAX_AGE_SECONDS = 2 * 60 * 60;
+
+function getSessionExpiration(token) {
+  try {
+    const payload = token.split(".")[1];
+    if (!payload) return 0;
+
+    const base64 = payload.replace(/-/g, "+").replace(/_/g, "/");
+    const binary = atob(base64);
+    const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+    const claims = JSON.parse(new TextDecoder().decode(bytes));
+    const issuedAt = Number(claims.iat);
+    const expiresAt = Number(claims.exp);
+
+    if (!Number.isFinite(issuedAt) || !Number.isFinite(expiresAt)) return 0;
+    return Math.min(expiresAt, issuedAt + SESSION_MAX_AGE_SECONDS) * 1000;
+  } catch {
+    return 0;
+  }
+}
 
 function errMsg(e) {
   return e.response?.data?.message || e.message || "Something went wrong.";
@@ -86,6 +106,9 @@ export default function App() {
     navigate(path);
   }, [navigate]);
   const [token, setToken] = useState(localStorage.getItem("yard_token"));
+  const [authChecking, setAuthChecking] = useState(() => Boolean(localStorage.getItem("yard_token")));
+  const [authCheckError, setAuthCheckError] = useState("");
+  const [authCheckAttempt, setAuthCheckAttempt] = useState(0);
   const [admin, setAdmin] = useState(localStorage.getItem("yard_admin") || "admin");
   const [role, setRole] = useState(localStorage.getItem("yard_role") || "superadmin");
   const [permissions, setPermissions] = useState(() => { try { return JSON.parse(localStorage.getItem("yard_permissions") || "{}"); } catch { return {}; } });
@@ -130,6 +153,23 @@ export default function App() {
       navigate(MENU_PATHS.Dashboard, { replace: true });
     }
   }, [location.pathname, navigate]);
+
+  useEffect(() => {
+    if (!token) return undefined;
+
+    const expiresAt = getSessionExpiration(token);
+    const delay = expiresAt - Date.now();
+    if (delay <= 0) {
+      window.dispatchEvent(new Event("yard-session-expired"));
+      return undefined;
+    }
+
+    const timeoutId = window.setTimeout(
+      () => window.dispatchEvent(new Event("yard-session-expired")),
+      delay
+    );
+    return () => window.clearTimeout(timeoutId);
+  }, [token]);
   const [showAddPart, setShowAddPart] = useState(false);
   const [newPart, setNewPart] = useState({ materialCode: "", materialName: "", company: "" });
   const [savingPart, setSavingPart] = useState(false);
@@ -294,7 +334,16 @@ export default function App() {
   useEffect(() => {
     const handler = () => {
       refreshIdRef.current += 1;
+      localStorage.removeItem("yard_token");
+      localStorage.removeItem("yard_admin");
+      localStorage.removeItem("yard_role");
+      localStorage.removeItem("yard_permissions");
       setToken(null);
+      setRole("user");
+      setPermissions({});
+      setAuthChecking(false);
+      setAuthCheckError("");
+      setLoginError("Session expired. Please sign in again.");
       setNotice({ type: "error", text: "Session expired. Please sign in again." });
       if (toastTimeoutRef.current) {
         clearTimeout(toastTimeoutRef.current);
@@ -303,6 +352,35 @@ export default function App() {
     window.addEventListener("yard-session-expired", handler);
     return () => window.removeEventListener("yard-session-expired", handler);
   }, []);
+
+  useEffect(() => {
+    if (!token) {
+      setAuthChecking(false);
+      return undefined;
+    }
+
+    let active = true;
+    setAuthChecking(true);
+    setAuthCheckError("");
+
+    api.get("/api/auth/me")
+      .then(({ data }) => {
+        if (!active) return;
+        setAdmin(data.username);
+        setRole(data.role || "user");
+        setPermissions(data.permissions || {});
+        setAuthChecking(false);
+      })
+      .catch((error) => {
+        if (!active || error.response?.status === 401) return;
+        setAuthCheckError("Unable to verify your session. Check the server connection and retry.");
+        setAuthChecking(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [token, authCheckAttempt]);
 
   const filteredEquipment = useMemo(() => {
     const q = equipmentSearch.toLowerCase().trim();
@@ -416,6 +494,8 @@ export default function App() {
       const r = await api.post("/api/auth/login", login);
       localStorage.setItem("yard_token", r.data.token);
       localStorage.setItem("yard_admin", r.data.username);
+      setAuthCheckError("");
+      setAuthChecking(true);
       setToken(r.data.token);
       setAdmin(r.data.username);
       setRole(r.data.role || "superadmin");
@@ -440,6 +520,8 @@ export default function App() {
     setPermissions({});
     setRole("user");
     setToken(null);
+    setAuthChecking(false);
+    setAuthCheckError("");
     setPage("Dashboard");
     if (toastTimeoutRef.current) {
       clearTimeout(toastTimeoutRef.current);
@@ -687,8 +769,28 @@ export default function App() {
 
   return (
     <AppPageProvider value={pageContextValue}>
-    <div className={token ? "app-shell" : "login-shell"}>
-      {!token ? (
+    <div className={authChecking || authCheckError || !token ? "login-shell" : "app-shell"}>
+      {authChecking ? (
+        <div className="session-checking" role="status" aria-live="polite">
+          Verifying your session...
+        </div>
+      ) : authCheckError ? (
+        <div className="session-checking" role="alert">
+          <p>{authCheckError}</p>
+          <div className="session-checking-actions">
+            <button
+              className="btn primary"
+              onClick={() => {
+                setAuthChecking(true);
+                setAuthCheckAttempt((attempt) => attempt + 1);
+              }}
+            >
+              Retry
+            </button>
+            <button className="btn secondary" onClick={logout}>Sign in</button>
+          </div>
+        </div>
+      ) : !token ? (
         <LoginPage
           login={login}
           setLogin={setLogin}

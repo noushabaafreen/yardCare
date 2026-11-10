@@ -19,6 +19,8 @@ api.interceptors.response.use(
     if (error.response?.status === 401 && !url.includes("/api/auth/login")) {
       localStorage.removeItem("yard_token");
       localStorage.removeItem("yard_admin");
+      localStorage.removeItem("yard_role");
+      localStorage.removeItem("yard_permissions");
       window.dispatchEvent(new Event("yard-session-expired"));
     }
     return Promise.reject(error);

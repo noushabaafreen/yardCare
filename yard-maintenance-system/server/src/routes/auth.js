@@ -26,8 +26,8 @@ router.post("/login", async (req, res) => {
     if (!user || !(await bcrypt.compare(password, user.passwordHash))) return res.status(401).json({ message: "Invalid username or password." });
     identity = { username: user.username, role: user.role, permissions: user.permissions || {} };
   }
-  const token = jwt.sign(identity, process.env.JWT_SECRET, { expiresIn: "8h" });
-  res.json({ token, username: identity.username, role: identity.role, permissions: identity.permissions, expiresIn: 28800 });
+  const token = jwt.sign(identity, process.env.JWT_SECRET, { expiresIn: "2h" });
+  res.json({ token, username: identity.username, role: identity.role, permissions: identity.permissions, expiresIn: 7200 });
 });
 
 router.get("/me", requireAuth, (req, res) => res.json({ username: req.admin.username, role: req.admin.role, permissions: req.admin.permissions || {} }));
