@@ -155,6 +155,21 @@ export const Equipment = model("Equipment", EquipmentSchema);
 export const Inward = model("Inward", InwardSchema);
 export const Job = model("Job", JobSchema);
 
+
+
+const ScrapVehicleSchema = new Schema(
+  {
+    vehicleNumber: { type: String, required: true, trim: true },
+    technicalNumber: { type: String, required: true, trim: true },
+    issue: { type: String, required: true, trim: true },
+    vehicleType: { type: String, required: true, trim: true },
+    makeCompany: { type: String, required: true, trim: true },
+  },
+  { timestamps: true }
+);
+
+ScrapVehicleSchema.index({ vehicleNumber: 1, technicalNumber: 1 });
+
 const UserSchema = new Schema({
   username: { type: String, required: true, unique: true, trim: true, lowercase: true },
   passwordHash: { type: String, required: true },
@@ -164,3 +179,4 @@ const UserSchema = new Schema({
 }, { timestamps: true });
 
 export const User = mongoose.models.User || model("User", UserSchema);
+export const ScrapVehicle = mongoose.models.ScrapVehicle || model("ScrapVehicle", ScrapVehicleSchema);

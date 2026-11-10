@@ -6,7 +6,7 @@ import { requireAuth, requireSuperAdmin } from "../middleware/auth.js";
 
 const router = Router();
 let adminHash = null;
-const MENUS = ["Dashboard", "Equipment Master", "Inward Entry", "Job Cards", "Detail Search", "Data Management", "Attendance", "Parts Catalogue", "Vehicle History", "Vehicle Presentation", "Reports & MIS"];
+const MENUS = ["Dashboard", "Equipment Master", "Inward Entry", "Job Cards", "Detail Search", "Data Management", "Attendance", "Parts Catalogue", "Vehicle History", "Vehicle Presentation", "Reports & MIS", "Scrap"];
 
 export async function initialiseAdmin() {
   const password = process.env.ADMIN_PASSWORD;

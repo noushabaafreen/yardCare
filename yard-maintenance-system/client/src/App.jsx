@@ -23,13 +23,15 @@ import {
   Trash2,
   Truck,
   Wrench,
-  X
+  X,
+  Recycle
 } from "lucide-react";
 import api from "./api";
 import Attendance from "./components/Attendance/Attendance";
 import VehiclePresentation from "./components/VehiclePresentation";
 import VehicleHistory from "./pages/VehicleHistory";
 import UserManagement from "./pages/UserManagement";
+import Scrap from "./pages/Scrap";
 import { Presentation  } from "lucide-react";
 //import { ClipboardList  } from "lucide-react";
 
@@ -45,6 +47,7 @@ const NAV = [
   ["Vehicle History", ClipboardList],
   ["Vehicle Presentation", Presentation],
   ["Reports & MIS", FileSpreadsheet],
+  ["Scrap", Recycle],
   ["User Management", Settings2]
 ];
 
@@ -964,6 +967,7 @@ export default function App() {
               {page !== "User Management" && !canView(page) && <section className="panel"><h2>Access restricted</h2><p>Your account does not have permission to view this section. Contact the Super Admin.</p></section>}
               {page === "User Management" && role === "superadmin" && <UserManagement />}
               {page === "Attendance" && canView("Attendance") && <Attendance />}
+              {page === "Scrap" && canView("Scrap") && <Scrap />}
               {page === "Vehicle History" && <VehicleHistory />}
               {page === "Vehicle Presentation" && (
                 <VehiclePresentation equipment={equipment} jobs={jobs} />
