@@ -3027,3 +3027,127 @@ td b {
     align-self: flex-start;
   }
 }
+
+@media (max-width: 760px) {
+  .main-area,
+  .page-content,
+  .panel {
+    min-width: 0;
+  }
+
+  .page-content {
+    padding: 14px 12px 20px;
+  }
+
+  .topbar {
+    gap: 8px;
+    padding: 0 12px;
+  }
+
+  .topbar-left {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .topbar-left > div {
+    min-width: 0;
+  }
+
+  .breadcrumbs {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .topbar h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .top-actions {
+    flex-shrink: 0;
+  }
+
+  .top-actions .btn,
+  .mobile-menu {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .panel-header {
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+
+  .panel-header > div {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .panel-header > .btn {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .toolbar {
+    min-width: 0;
+    padding: 14px 16px;
+  }
+
+  .searchbox {
+    min-width: 0;
+    min-height: 44px;
+  }
+
+  .table-scroll-region,
+  .table-wrap {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+  }
+
+  .table-scroll-hint {
+    display: block;
+    margin: 0;
+    padding: 0 16px 9px;
+    color: #77859a;
+    font-size: 11px;
+  }
+
+  .field input,
+  .field select,
+  .field textarea {
+    min-height: 44px;
+    font-size: 16px;
+  }
+
+  .btn:not(.tiny) {
+    min-height: 44px;
+  }
+
+  .row-actions .btn.tiny {
+    min-height: 40px;
+  }
+
+  .modal-backdrop {
+    padding: 8px;
+  }
+
+  .modal {
+    width: 100%;
+    max-height: calc(100dvh - 16px);
+  }
+}
+
+@media (min-width: 761px) {
+  .table-scroll-hint {
+    display: none;
+  }
+}

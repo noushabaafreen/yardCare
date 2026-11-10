@@ -2650,44 +2650,51 @@ function EmptyState({ title, body, action }) {
 function EquipmentTable({ rows, jobs, onViewHistory, onSelectEquipment, onNewInward }) {
   if (!rows.length) return <EmptyState title="No equipment found" body="Add equipment to create your permanent technical object register." />;
   return (
-    <div className="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Technical object</th>
-            <th>Vehicle / machine</th>
-            <th>Equipment type</th>
-            <th>Make / model</th>
-            <th>Visits</th>
-            <th>Added</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((x) => {
-            const visits = jobs.filter(
-              (j) => j.equipment === x._id || j.equipment?._id === x._id || j.technicalObjectNumber === x.technicalObjectNumber
-            );
-            const active = visits.some((j) => j.status !== "Exited");
-            return (
-              <tr key={x._id} className="clickable-row" onClick={() => onSelectEquipment(x)} title="Click to view equipment details">
-                <td><b className="mono">{x.technicalObjectNumber}</b></td>
-                <td>{x.vehicleNumber || x.equipmentName || "—"}</td>
-                <td>{x.equipmentType}</td>
-                <td>{[x.make, x.model].filter(Boolean).join(" / ") || "—"}</td>
-                <td><b>{visits.length}</b><small className="cell-sub">{active ? "Currently inside" : "Not in yard"}</small></td>
-                <td>{dateOnly(x.createdAt)}</td>
-                <td>
-                  <div className="row-actions">
-                    <button className="btn tiny secondary" onClick={(e) => { e.stopPropagation(); onViewHistory(x); }}><History size={14} /> History</button>
-                    {!active && <button className="btn tiny primary" onClick={(e) => { e.stopPropagation(); onNewInward(x._id); }}>New inward</button>}
-                  </div>
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+    <div className="table-scroll-region">
+      <p className="table-scroll-hint">Swipe sideways to view the remaining columns.</p>
+      <div
+        className="table-wrap"
+        tabIndex={0}
+        aria-label="Equipment register. Scroll horizontally to view all columns."
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>Technical object</th>
+              <th>Vehicle / machine</th>
+              <th>Equipment type</th>
+              <th>Make / model</th>
+              <th>Visits</th>
+              <th>Added</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((x) => {
+              const visits = jobs.filter(
+                (j) => j.equipment === x._id || j.equipment?._id === x._id || j.technicalObjectNumber === x.technicalObjectNumber
+              );
+              const active = visits.some((j) => j.status !== "Exited");
+              return (
+                <tr key={x._id} className="clickable-row" onClick={() => onSelectEquipment(x)} title="Click to view equipment details">
+                  <td><b className="mono">{x.technicalObjectNumber}</b></td>
+                  <td>{x.vehicleNumber || x.equipmentName || "—"}</td>
+                  <td>{x.equipmentType}</td>
+                  <td>{[x.make, x.model].filter(Boolean).join(" / ") || "—"}</td>
+                  <td><b>{visits.length}</b><small className="cell-sub">{active ? "Currently inside" : "Not in yard"}</small></td>
+                  <td>{dateOnly(x.createdAt)}</td>
+                  <td>
+                    <div className="row-actions">
+                      <button className="btn tiny secondary" onClick={(e) => { e.stopPropagation(); onViewHistory(x); }}><History size={14} /> History</button>
+                      {!active && <button className="btn tiny primary" onClick={(e) => { e.stopPropagation(); onNewInward(x._id); }}>New inward</button>}
+                    </div>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
