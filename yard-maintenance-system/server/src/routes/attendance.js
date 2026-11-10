@@ -129,6 +129,7 @@ router.post("/employees", async (req, res) => {
 
     const employeeName = clean(req.body?.employeeName);
     const employeeCode = clean(req.body?.employeeCode);
+    const designation = clean(req.body?.designation);
 
     if (!employeeName) {
       return res.status(400).json({
@@ -157,7 +158,7 @@ router.post("/employees", async (req, res) => {
     const employee = await AttendanceEmployee.create({
       employeeName,
       employeeCode,
-      designation: "",
+      designation,
       active: true,
       sortOrder: (lastEmployee?.sortOrder || 0) + 1,
     });
@@ -198,6 +199,10 @@ router.patch("/employees/:id", async (req, res) => {
 
     if (req.body?.employeeName !== undefined) {
       updates.employeeName = clean(req.body.employeeName);
+    }
+
+    if (req.body?.designation !== undefined) {
+      updates.designation = clean(req.body.designation);
     }
 
     const employee = await AttendanceEmployee.findByIdAndUpdate(
@@ -276,7 +281,7 @@ router.get("/:month/export", async (req, res) => {
         index + 1,
         employee.employeeCode || "",
         employee.employeeName,
-        "",
+        employee.designation || "",
         ...dayKeys.map(key => days[key] || ""),
         counts.present,
         counts.half,

@@ -77,6 +77,7 @@ export default function Attendance() {
   const [newEmployee, setNewEmployee] = useState({
     employeeName: "",
     employeeCode: "",
+    designation: "",
   });
 
   const days = useMemo(() => getMonthDays(month), [month]);
@@ -139,6 +140,7 @@ export default function Attendance() {
 
     const employeeName = newEmployee.employeeName.trim();
     const employeeCode = newEmployee.employeeCode.trim();
+    const designation = newEmployee.designation.trim();
 
     if (!employeeName) {
       setError("Please enter employee name.");
@@ -155,7 +157,7 @@ export default function Attendance() {
         {
           employeeName,
           employeeCode,
-          designation: "",
+          designation,
         }
       );
 
@@ -170,6 +172,7 @@ export default function Attendance() {
       setNewEmployee({
         employeeName: "",
         employeeCode: "",
+        designation: "",
       });
 
       setShowAddEmployee(false);
@@ -181,6 +184,24 @@ export default function Attendance() {
       );
     } finally {
       setAddingEmployee(false);
+    }
+  };
+
+  // SAVE EMPLOYEE DESIGNATION
+  const saveDesignation = async (emp) => {
+    try {
+      const { data } = await api.patch(
+        `/api/attendance/employees/${emp._id}`,
+        { designation: emp.designation || "" }
+      );
+
+      updateEmployee(emp._id, { designation: data.designation });
+      setNotice(`Designation saved for ${emp.employeeName}.`);
+    } catch (e) {
+      setError(
+        e.response?.data?.message ||
+        "Unable to save designation."
+      );
     }
   };
 
@@ -427,9 +448,14 @@ export default function Attendance() {
                 Designation
                 <input
                   type="text"
-                  value=""
-                  disabled
-                  placeholder="Intentionally left blank"
+                  value={newEmployee.designation}
+                  onChange={e =>
+                    setNewEmployee(old => ({
+                      ...old,
+                      designation: e.target.value,
+                    }))
+                  }
+                  placeholder="Enter designation"
                 />
               </label>
 
@@ -550,7 +576,20 @@ export default function Attendance() {
                       {emp.employeeName}
                     </td>
 
-                    <td></td>
+                    <td>
+                      <input
+                        className="att-code-input"
+                        aria-label={`${emp.employeeName} designation`}
+                        value={emp.designation || ""}
+                        placeholder="Designation"
+                        onChange={e =>
+                          updateEmployee(emp._id, {
+                            designation: e.target.value,
+                          })
+                        }
+                        onBlur={() => saveDesignation(emp)}
+                      />
+                    </td>
                     <td>
                       <select
                         className="att-allowance-select"
@@ -612,7 +651,7 @@ export default function Attendance() {
 
       <p className="att-note">
         Total = Present + Half Day + Absent + OFF. Each marked day counts as one; blank dates are not counted.
-        Week Off is each employee’s company-paid monthly allowance (0, 3, or 4); mark actual company weekly-off dates as OFF. Designation is intentionally blank.
+        Week Off is each employee’s company-paid monthly allowance (0, 3, or 4); mark actual company weekly-off dates as OFF.
       </p>
 
     </section>
