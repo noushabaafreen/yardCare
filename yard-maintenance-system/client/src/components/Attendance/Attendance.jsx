@@ -521,7 +521,11 @@ export default function Attendance() {
           Loading attendance register...
         </div>
       ) : (
-        <div className="attendance-table-wrap">
+        <div
+          className="attendance-table-wrap"
+          tabIndex={0}
+          aria-label="Attendance register. Scroll horizontally to view all dates."
+        >
           <table className="attendance-table">
 
             <thead>
@@ -648,6 +652,10 @@ export default function Attendance() {
           </table>
         </div>
       )}
+
+      <p className="att-scroll-hint">
+        On a phone, swipe sideways in the attendance table to reach all dates.
+      </p>
 
       <p className="att-note">
         Total = Present + Half Day + Absent + OFF. Each marked day counts as one; blank dates are not counted.

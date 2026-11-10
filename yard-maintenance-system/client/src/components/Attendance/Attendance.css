@@ -224,6 +224,7 @@
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 12px 28px rgba(15, 23, 42, 0.04);
+  -webkit-overflow-scrolling: touch;
 }
 
 .attendance-table {
@@ -378,6 +379,10 @@
   line-height: 1.7;
 }
 
+.att-scroll-hint {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .attendance-heading {
     align-items: flex-start;
@@ -482,6 +487,10 @@
     padding: 12px;
   }
 
+  .attendance-heading {
+    gap: 12px;
+  }
+
   .attendance-heading h1 {
     font-size: 22px;
   }
@@ -506,6 +515,7 @@
   .att-btn {
     white-space: normal;
     text-align: center;
+    min-height: 44px;
   }
 
   .att-search {
@@ -513,8 +523,58 @@
     min-width: 0;
   }
 
+  .att-search input {
+    min-height: 44px;
+  }
+
   .attendance-table-wrap {
-    max-height: 65vh;
+    max-height: none;
+    border-radius: 9px;
+  }
+
+  .attendance-table th,
+  .attendance-table td {
+    padding: 6px 4px;
+  }
+
+  .attendance-table .sticky-sl,
+  .attendance-table .sticky-code {
+    position: static;
+  }
+
+  .attendance-table .sticky-name {
+    left: 0;
+    min-width: 128px;
+    max-width: 128px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .attendance-table thead .sticky-name {
+    z-index: 5;
+  }
+
+  .att-code-input {
+    width: 88px;
+    min-height: 40px;
+  }
+
+  .att-day {
+    width: 42px;
+    min-height: 42px;
+    font-size: 11px;
+  }
+
+  .att-allowance-select {
+    min-height: 40px;
+  }
+
+  .att-scroll-hint {
+    display: block;
+    margin: 8px 2px 0;
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.5;
   }
 
   .att-form-grid {
