@@ -66,7 +66,35 @@ export const MAKES = [
   "Other"
 ];
 
-export const STATUSES = ["In Progress", "Waiting for Parts", "Completed", "Exited"];
+export const STATUSES = [
+  "Awaiting Job Card",
+  "Inspection Pending",
+  "Inspection Done",
+  "Diagnosis Pending",
+  "In Progress",
+  "Repair In Progress",
+  "Waiting for Parts",
+  "Quality Check Pending",
+  "Quality Check Done",
+  "Ready for Delivery",
+  "Completed",
+  "Exited"
+];
+
+export const STATUS_TONES = {
+  "Awaiting Job Card": "red",
+  "Inspection Pending": "orange",
+  "Inspection Done": "blue",
+  "Diagnosis Pending": "orange",
+  "In Progress": "blue",
+  "Repair In Progress": "blue",
+  "Waiting for Parts": "orange",
+  "Quality Check Pending": "orange",
+  "Quality Check Done": "blue",
+  "Ready for Delivery": "green",
+  Completed: "green",
+  Exited: "green"
+};
 
 export const blankEquipment = {
   technicalObjectNumber: "",

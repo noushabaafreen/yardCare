@@ -1,6 +1,6 @@
 import React from "react";
 import { Boxes, History, X } from "lucide-react";
-import { dateOnly, dateText, localDateTime } from "../appConstants";
+import { dateOnly, dateText, localDateTime, STATUS_TONES } from "../appConstants";
 
 export function PanelHeader({ title, subtitle, action }) {
   return (
@@ -51,7 +51,7 @@ export function StatCard({ label, value, detail, Icon, tone, warning }) {
 }
 
 export function StatusBadge({ status }) {
-  const tone = status === "Exited" ? "green" : status === "Completed" ? "blue" : status === "Waiting for Parts" ? "orange" : status === "In Progress" ? "purple" : "gray";
+  const tone = STATUS_TONES[status] || "gray";
   return (
     <span className={`status-badge ${tone}`}>
       <span />

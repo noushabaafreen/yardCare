@@ -71,9 +71,9 @@ export default function ReportsPage() {
       </div>
       <div className="report-summary">
         <div><span>Matching records</span><b>{reportRows.length}</b></div>
-        <div><span>In progress</span><b>{reportRows.filter((job) => job.status === "In Progress").length}</b></div>
-        <div><span>Waiting for parts</span><b>{reportRows.filter((job) => job.status === "Waiting for Parts").length}</b></div>
-        <div><span>Completed / exited</span><b>{reportRows.filter((job) => ["Completed", "Exited"].includes(job.status)).length}</b></div>
+        {STATUSES.map((status) => (
+          <div key={status}><span>{status}</span><b>{reportRows.filter((job) => job.status === status).length}</b></div>
+        ))}
       </div>
       <div className="table-heading">
         <b>{REPORT_TITLES[report.kind]}</b>

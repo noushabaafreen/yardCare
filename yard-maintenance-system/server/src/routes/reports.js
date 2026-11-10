@@ -41,11 +41,7 @@ function jobFilter(query) {
   if (kind === "inside") {
     statusConditions.push({ status: { $ne: "Exited" } });
   } else if (kind === "pending") {
-    statusConditions.push({
-      status: {
-        $in: ["Awaiting Job Card", "In Progress", "Waiting for Parts"]
-      }
-    });
+    statusConditions.push({ status: { $nin: ["Completed", "Exited"] } });
   } else if (kind === "completed") {
     statusConditions.push({ status: { $in: ["Completed", "Exited"] } });
   } else if (kind === "exited") {
@@ -236,13 +232,7 @@ router.get("/summary", async (_req, res, next) => {
       }),
 
       Job.countDocuments({
-        status: {
-          $in: [
-            "In Progress",
-            "Waiting for Parts",
-            "Awaiting Job Card"
-          ]
-        }
+        status: { $nin: ["Completed", "Exited"] }
       }),
 
       // Completed today, including jobs that have since exited.

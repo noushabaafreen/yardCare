@@ -470,7 +470,7 @@ export default function App() {
   const reportRows = useMemo(() => {
     return jobs.filter((j) => {
       if (report.kind === "inside" && j.status === "Exited") return false;
-      if (report.kind === "pending" && !["Awaiting Job Card", "In Progress", "Waiting for Parts"].includes(j.status)) return false;
+      if (report.kind === "pending" && ["Completed", "Exited"].includes(j.status)) return false;
       if (report.kind === "completed" && !["Completed", "Exited"].includes(j.status)) return false;
       if (report.kind === "exited" && j.status !== "Exited") return false;
       if (report.status !== "all" && j.status !== report.status) return false;

@@ -1,7 +1,7 @@
 import React from "react";
 import { BadgeCheck, CheckCircle2, DoorOpen, Plus, X } from "lucide-react";
 import { useAppPage } from "../AppPageContext";
-import { blankEquipment, blankInward, dateText, localDateTime, MAKES, TYPES } from "../appConstants";
+import { blankEquipment, blankInward, dateText, localDateTime, MAKES, STATUSES, TYPES } from "../appConstants";
 import { EmptyState, Field, Modal, StatusBadge } from "./AppShared";
 import parseBulkParts from "../utils/parseBulkParts";
 
@@ -493,16 +493,20 @@ export default function AppDialogs() {
                   <div className="bulk-parts-entry">
                     <div className="parts-heading">
                       <div>
-                        <h4>Bulk Parts Entry · Notepad</h4>
-                        <p>Paste one part per line. Separate Material Code and Part Name with a TAB, |, comma, or at least two spaces.</p>
+                        <h4>Bulk Parts Entry · Paste from spreadsheet</h4>
+                        <p>Paste columns: Part Number, Part Name, Quantity. Quantity fills Ordered Qty. A header row is optional.</p>
                       </div>
                       <button
                         type="button"
                         className="btn tiny secondary"
                         onClick={() => {
-                          const parsed = parseBulkParts(lot.bulkPartsText);
-                          if (!parsed.length) {
-                            window.alert("No valid parts found. Enter each line as Material Code followed by Part Name.");
+                          const { parts, invalidLines } = parseBulkParts(lot.bulkPartsText);
+                          if (invalidLines.length) {
+                            window.alert(`Please correct invalid row(s): ${invalidLines.join(", ")}. Each row needs a part number, part name, and a non-negative quantity. No rows were added.`);
+                            return;
+                          }
+                          if (!parts.length) {
+                            window.alert("No valid parts found. Paste rows with Part Number, Part Name, and Quantity.");
                             return;
                           }
                           setJobEdit((prev) => ({
@@ -511,7 +515,7 @@ export default function AppDialogs() {
                               i === lotIndex
                                 ? {
                                   ...l,
-                                  parts: [...(l.parts || []), ...parsed],
+                                  parts: [...(l.parts || []), ...parts],
                                   bulkPartsText: ""
                                 }
                                 : l
@@ -534,10 +538,18 @@ export default function AppDialogs() {
                           )
                         }));
                       }}
-                      placeholder={"Material Code    Part Name\n1101AAA02020N    TIE ROD ASSEMBLY\n1103AAA01311N    DRAGLINK ASSEMBLY\n7603AAC00080N    KINGPIN"}
+                      placeholder={"Part Number\tPart Name\tQuantity\n1101AAA02020N\tTIE ROD ASSEMBLY\t2\n1103AAA01311N\tDRAGLINK ASSEMBLY\t1"}
                       style={{ width: "100%", minHeight: 130, resize: "vertical", fontFamily: "monospace", lineHeight: 1.6 }}
                     />
-                    <small>{parseBulkParts(lot.bulkPartsText).length} valid part line(s) detected. Parts will share this lot's PR and PO numbers.</small>
+                    {(() => {
+                      const { parts, invalidLines } = parseBulkParts(lot.bulkPartsText);
+                      return (
+                        <small>
+                          {parts.length} part row(s) detected; {invalidLines.length} invalid row(s).
+                          {" "}Imported quantities are saved as Ordered Qty; requested quantities remain 0.
+                        </small>
+                      );
+                    })()}
                   </div>
 
                   <div className="parts-heading">
@@ -748,7 +760,7 @@ export default function AppDialogs() {
                 value={jobEdit.status}
                 onChange={(e) => setJobEdit({ ...jobEdit, status: e.target.value })}
               >
-                {["In Progress", "Waiting for Parts"].map((s) => (
+                {STATUSES.filter((status) => !["Completed", "Exited"].includes(status)).map((s) => (
                   <option key={s}>{s}</option>
                 ))}
               </select>

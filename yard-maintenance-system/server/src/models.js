@@ -132,7 +132,20 @@ const JobSchema = new Schema(
 
     status: {
       type: String,
-      enum: ["Awaiting Job Card", "In Progress", "Waiting for Parts", "Completed", "Exited"],
+      enum: [
+        "Awaiting Job Card",
+        "Inspection Pending",
+        "Inspection Done",
+        "Diagnosis Pending",
+        "In Progress",
+        "Repair In Progress",
+        "Waiting for Parts",
+        "Quality Check Pending",
+        "Quality Check Done",
+        "Ready for Delivery",
+        "Completed",
+        "Exited",
+      ],
       default: "In Progress",
       index: true,
     },

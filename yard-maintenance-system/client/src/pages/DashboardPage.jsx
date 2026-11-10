@@ -10,7 +10,7 @@ import {
   Truck,
   Wrench
 } from "lucide-react";
-import { dateOnly } from "../appConstants";
+import { dateOnly, STATUSES, STATUS_TONES } from "../appConstants";
 import { useAppPage } from "../AppPageContext";
 import { EmptyState, PanelHeader, StatCard, StatusBadge } from "../components/AppShared";
 
@@ -20,11 +20,11 @@ export default function DashboardPage() {
   const overdue = jobs.filter(
     (job) => job.expectedOutDate && new Date(job.expectedOutDate) < new Date() && !["Completed", "Exited"].includes(job.status)
   );
-  const statusGroups = [
-    { label: "In progress", count: jobs.filter((job) => ["In Progress", "In progress", "Open"].includes(job.status)).length, tone: "blue" },
-    { label: "Awaiting parts", count: jobs.filter((job) => String(job.status || "").toLowerCase().includes("part")).length, tone: "orange" },
-    { label: "Completed", count: jobs.filter((job) => ["Completed", "Exited"].includes(job.status)).length, tone: "green" },
-  ];
+  const statusGroups = STATUSES.map((status) => ({
+    label: status,
+    count: jobs.filter((job) => job.status === status).length,
+    tone: STATUS_TONES[status]
+  }));
   const totalStatusJobs = statusGroups.reduce((sum, item) => sum + item.count, 0);
 
   return (
