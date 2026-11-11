@@ -1,6 +1,7 @@
 import React from "react";
 import { useAppPage } from "../AppPageContext";
 import AttendancePage from "./AttendancePage";
+import LeaveManagementPage from "./LeaveManagementPage";
 import DashboardPage from "./DashboardPage";
 import DataManagementPage from "./DataManagementPage";
 import DetailSearchPage from "./DetailSearchPage";
@@ -22,6 +23,7 @@ const MENU_PAGES = {
   "Detail Search": DetailSearchPage,
   "Data Management": DataManagementPage,
   Attendance: AttendancePage,
+  "Leave Management": LeaveManagementPage,
   "Parts Catalogue": PartsCataloguePage,
   "Vehicle History": VehicleHistoryPage,
   "Vehicle Presentation": VehiclePresentationPage,

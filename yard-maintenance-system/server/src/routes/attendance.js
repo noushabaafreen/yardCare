@@ -98,7 +98,7 @@ const INITIAL_EMPLOYEES = [
   sortOrder: index + 1,
 }));
 
-async function ensureRoster() {
+export async function ensureRoster() {
   const count = await AttendanceEmployee.countDocuments();
 
   if (!count) {

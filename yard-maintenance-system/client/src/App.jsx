@@ -17,7 +17,8 @@ import {
   Truck,
   Wrench,
   X,
-  Recycle
+  Recycle,
+  CalendarCheck
 } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import api from "./api";
@@ -36,6 +37,7 @@ const NAV = [
   ["Detail Search", Search],
   ["Data Management", Trash2],
   ["Attendance", CalendarDays],
+  ["Leave Management", CalendarCheck],
   ["Parts Catalogue", Boxes],
   ["Vehicle History", ClipboardList],
   ["Vehicle Presentation", PresentationIcon],
@@ -52,6 +54,7 @@ const MENU_PATHS = {
   "Detail Search": "/detail-search",
   "Data Management": "/data-management",
   Attendance: "/attendance",
+  "Leave Management": "/leave-management",
   "Parts Catalogue": "/parts-catalogue",
   "Vehicle History": "/vehicle-history",
   "Vehicle Presentation": "/vehicle-presentation",

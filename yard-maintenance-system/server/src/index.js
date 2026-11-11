@@ -12,6 +12,7 @@ import reportRoutes from "./routes/reports.js";
 import { requireAuth, requireMenu } from "./middleware/auth.js";
 import dataManagementRoutes from "./routes/dataManagement.js";
 import attendanceRoutes from "./routes/attendance.js";
+import leaveRoutes from "./routes/leaves.js";
 import partsCatalogRoutes from "./routes/partsCatalog.js";
 import scrapRoutes from "./routes/scrap.js";
 
@@ -30,6 +31,7 @@ app.use("/api/jobs", requireAuth, requireMenu("Job Cards"), jobRoutes);
 app.use("/api/reports", requireAuth, requireMenu("Reports & MIS"), reportRoutes);
 app.use("/api/data-management", requireAuth, requireMenu("Data Management"), dataManagementRoutes);
 app.use("/api/attendance", requireAuth, requireMenu("Attendance"), attendanceRoutes);
+app.use("/api/leaves", requireAuth, requireMenu("Leave Management"), leaveRoutes);
 app.use("/api/parts-catalog", requireAuth, requireMenu("Parts Catalogue"), partsCatalogRoutes);
 app.use("/api/scrap", requireAuth, requireMenu("Scrap"), scrapRoutes);
 

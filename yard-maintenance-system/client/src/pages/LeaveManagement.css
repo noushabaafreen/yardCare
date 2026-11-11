@@ -1,0 +1,330 @@
+.leave-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: var(--text, #172b4d);
+}
+.leave-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.leave-intro h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  font-size: 22px;
+}
+.leave-intro h2 svg {
+  color: #1fa392;
+}
+.leave-intro p,
+.leave-card-head p {
+  margin: 4px 0 0;
+  color: #718096;
+  font-size: 13px;
+}
+.leave-eyebrow {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  color: #1fa392;
+}
+.leave-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.leave-stat {
+  background: #fff;
+  border: 1px solid #e5eaf0;
+  border-radius: 12px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.leave-stat span {
+  font-size: 12px;
+  color: #68778b;
+  font-weight: 600;
+}
+.leave-stat strong {
+  font-size: 27px;
+  line-height: 1.2;
+  color: #062b5b;
+}
+.leave-stat small {
+  font-size: 11px;
+  color: #8a96a7;
+}
+.leave-card {
+  background: #fff;
+  border: 1px solid #e5eaf0;
+  border-radius: 13px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(16, 42, 67, 0.035);
+}
+.leave-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.leave-card-head h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #17365d;
+}
+.leave-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+}
+.leave-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.leave-field > span,
+.leave-date-filter > span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #526176;
+}
+.leave-field input,
+.leave-field select,
+.leave-field textarea,
+.leave-date-filter input,
+.leave-search input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dce3eb;
+  border-radius: 7px;
+  background: #fff;
+  padding: 9px 10px;
+  color: #24364b;
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+}
+.leave-field input:focus,
+.leave-field select:focus,
+.leave-field textarea:focus,
+.leave-date-filter input:focus,
+.leave-search:focus-within {
+  border-color: #1fa392;
+  box-shadow: 0 0 0 2px rgba(31, 163, 146, 0.1);
+}
+.leave-field input[readonly] {
+  background: #f5f7fa;
+  color: #66758a;
+}
+.leave-wide {
+  grid-column: 1/-1;
+}
+.leave-field textarea {
+  resize: vertical;
+}
+.leave-form-actions {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 4px;
+}
+.leave-form-actions .btn,
+.leave-intro .btn,
+.leave-card-head .btn,
+.leave-toolbar .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.leave-approved-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #16845f;
+  background: #e8f7f0;
+  padding: 7px 10px;
+  border-radius: 6px;
+}
+.leave-date-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.leave-date-filter input {
+  width: auto;
+  padding: 7px 9px;
+}
+.leave-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.leave-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #dce3eb;
+  border-radius: 7px;
+  padding: 0 10px;
+  min-width: 250px;
+  flex: 1;
+  color: #8290a3;
+}
+.leave-search input {
+  border: 0;
+  box-shadow: none !important;
+  padding-left: 0;
+}
+.leave-table-wrap {
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #e8edf2;
+  border-radius: 8px;
+}
+.leave-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 850px;
+  font-size: 12px;
+}
+.leave-table th {
+  background: #f4f7fa;
+  color: #56677d;
+  font-size: 10px;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 11px 12px;
+  white-space: nowrap;
+}
+.leave-table td {
+  padding: 11px 12px;
+  border-top: 1px solid #edf1f5;
+  color: #40516a;
+  vertical-align: middle;
+}
+.leave-table td b {
+  display: block;
+  color: #233b59;
+  font-size: 12px;
+}
+.leave-table td small {
+  display: block;
+  color: #8b98a8;
+  font-size: 10px;
+  margin-top: 3px;
+}
+.leave-status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: #e8f7f0;
+  color: #16845f;
+  font-size: 10px;
+  font-weight: 800;
+}
+.leave-actions {
+  display: flex;
+  gap: 6px;
+}
+.leave-actions button {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #dfe6ed;
+  border-radius: 6px;
+  background: #fff;
+  color: #50647c;
+  cursor: pointer;
+}
+.leave-actions button:hover {
+  color: #1fa392;
+  border-color: #1fa392;
+}
+.leave-empty {
+  padding: 28px;
+  text-align: center;
+  color: #8290a3;
+  font-size: 13px;
+}
+.leave-alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 13px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.leave-alert.error {
+  background: #fff0f0;
+  color: #b42318;
+}
+.leave-alert.success {
+  background: #eaf8f1;
+  color: #16845f;
+}
+.leave-alert button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+@media (max-width: 900px) {
+  .leave-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .leave-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .leave-intro,
+  .leave-card-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .leave-stats {
+    grid-template-columns: 1fr;
+  }
+  .leave-form {
+    grid-template-columns: 1fr;
+  }
+  .leave-wide,
+  .leave-form-actions {
+    grid-column: auto;
+  }
+  .leave-form-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .leave-date-filter {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .leave-date-filter input {
+    flex: 1;
+  }
+  .leave-toolbar {
+    align-items: stretch;
+  }
+  .leave-search {
+    min-width: 100%;
+  }
+  .leave-toolbar > .btn {
+    justify-content: center;
+  }
+}
