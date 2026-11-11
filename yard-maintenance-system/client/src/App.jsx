@@ -805,7 +805,7 @@ export default function App() {
         <>
           <aside className={`sidebar ${mobileNav ? "open" : ""}`}>
             <div className="brand">
-              <div className="brand-icon"><Wrench size={21} /></div>
+              <img className="brand-logo" src="/yardcare-logo.png" alt="JMD YardCare logo" />
               <div><b>YardCare</b><span>Maintenance MIS</span></div>
               <button className="icon-btn mobile-close" onClick={() => setMobileNav(false)}><X size={18} /></button>
             </div>

@@ -113,6 +113,23 @@ button:focus-visible {
   padding: 0 9px 27px;
   color: #fff;
 }
+ .brand-logo {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  display: block;
+  object-fit: contain;
+  border-radius: 9px;
+  background: #fff;
+  padding: 2px;
+}
+.brand-logo-large {
+  width: 54px;
+  height: 54px;
+  flex-basis: 54px;
+  border-radius: 12px;
+  padding: 3px;
+}
 .brand-icon {
   width: 39px;
   height: 39px;

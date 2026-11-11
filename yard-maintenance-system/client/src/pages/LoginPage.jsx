@@ -1,5 +1,5 @@
 import React from "react";
-import { AlertTriangle, BadgeCheck, Loader2, Wrench } from "lucide-react";
+import { AlertTriangle, BadgeCheck, Loader2 } from "lucide-react";
 
 function ShieldDot() {
   return <span className="shield-dot"><BadgeCheck size={15} /></span>;
@@ -16,7 +16,7 @@ export default function LoginPage({
     <>
       <div className="login-art">
         <div className="brand brand-light">
-          <div className="brand-icon"><Wrench size={22} /></div>
+          <img className="brand-logo brand-logo-large" src="/yardcare-logo.png" alt="JMD YardCare logo" />
           <div><b>YardCare</b><span>Equipment Maintenance MIS</span></div>
         </div>
         <div className="login-hero">
@@ -31,7 +31,7 @@ export default function LoginPage({
       </div>
       <div className="login-panel">
         <form className="login-form" onSubmit={onSubmit}>
-          <div className="mobile-brand"><Wrench /> YardCare</div>
+          <div className="mobile-brand"><img className="brand-logo" src="/yardcare-logo.png" alt="JMD YardCare logo" /><span>YardCare</span></div>
           <span className="eyebrow">ADMINISTRATOR ACCESS</span>
           <h2>Welcome back</h2>
           <p className="muted">Sign in to manage your yard operations.</p>
