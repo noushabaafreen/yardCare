@@ -15,6 +15,7 @@ import attendanceRoutes from "./routes/attendance.js";
 import leaveRoutes from "./routes/leaves.js";
 import partsCatalogRoutes from "./routes/partsCatalog.js";
 import scrapRoutes from "./routes/scrap.js";
+import fleetControlRoutes from "./routes/fleetControl.js";
 
 const app = express();
 const PORT = Number(process.env.PORT || 5000);
@@ -34,6 +35,7 @@ app.use("/api/attendance", requireAuth, requireMenu("Attendance"), attendanceRou
 app.use("/api/leaves", requireAuth, requireMenu("Leave Management"), leaveRoutes);
 app.use("/api/parts-catalog", requireAuth, requireMenu("Parts Catalogue"), partsCatalogRoutes);
 app.use("/api/scrap", requireAuth, requireMenu("Scrap"), scrapRoutes);
+app.use("/api/fleet-control", requireAuth, requireMenu("Fleet Control Center"), fleetControlRoutes);
 
 app.use((err, _req, res, _next) => {
   console.error(err);

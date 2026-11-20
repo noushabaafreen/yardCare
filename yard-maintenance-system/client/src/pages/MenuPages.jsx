@@ -14,9 +14,11 @@ import Scrap from "./Scrap";
 import UserManagement from "./UserManagement";
 import VehicleHistoryPage from "./VehicleHistoryPage";
 import VehiclePresentationPage from "./VehiclePresentationPage";
+import FleetControlCenter from "./FleetControlCenter";
 
 const MENU_PAGES = {
   Dashboard: DashboardPage,
+  "Fleet Control Center": FleetControlCenter,
   "Equipment Master": EquipmentMasterPage,
   "Inward Entry": InwardEntryPage,
   "Job Cards": JobCardsPage,

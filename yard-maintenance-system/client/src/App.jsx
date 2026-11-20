@@ -31,6 +31,7 @@ import LoginPage from "./pages/LoginPage";
 
 const NAV = [
   ["Dashboard", LayoutDashboard],
+  ["Fleet Control Center", Truck],
   ["Equipment Master", Truck],
   ["Inward Entry", DoorOpen],
   ["Job Cards", ClipboardList],
@@ -48,6 +49,7 @@ const NAV = [
 
 const MENU_PATHS = {
   Dashboard: "/dashboard",
+  "Fleet Control Center": "/fleet-control-center",
   "Equipment Master": "/equipment-master",
   "Inward Entry": "/inward-entry",
   "Job Cards": "/job-cards",
